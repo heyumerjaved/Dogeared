@@ -162,9 +162,12 @@
   {%- if show_name -%}
     <div class="input-row">{{ email_field }}</div>
     <div class="input-row">
-        <input type="checkbox" id="subscribe-checkbox" onchange="toggleNewsletterButton()" checked>
-        <label class="checkboxlabel" for="subscribe-checkbox">I accept the privacy & agree to receive communications</label>
-      </div>
+      <label class="checkbox-container">
+          <input type="checkbox" id="subscribe-checkbox" onchange="toggleNewsletterButton()" checked>
+          <span class="checkmark"></span>
+          <label class="checkboxlabel" for="subscribe-checkbox">I accept the privacy & agree to receive communications</label>
+      </label>
+    </div>
     <div class="input-row">{{ submit_button }}</div>
   {%- endif -%}
 

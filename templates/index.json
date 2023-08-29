@@ -1,55 +1,5 @@
 {
   "sections": {
-    "70ba32b9-9b48-4ad6-89fc-2765a0e06777": {
-      "type": "section-double",
-      "blocks": {
-        "template--16877255950550__70ba32b9-9b48-4ad6-89fc-2765a0e06777-16832184222e81c5aa-0": {
-          "type": "heading",
-          "settings": {
-            "title": "It's Leo & Virgo Season",
-            "text_size": 8
-          }
-        },
-        "template--16877255950550__70ba32b9-9b48-4ad6-89fc-2765a0e06777-16832184222e81c5aa-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Shop August Birthstone<\/p>",
-            "text_size": 5,
-            "text_style": "font-body"
-          }
-        },
-        "template--16877255950550__70ba32b9-9b48-4ad6-89fc-2765a0e06777-16832184222e81c5aa-2": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "Shop Birthstones",
-            "button_url": "shopify:\/\/collections\/birthstones",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16877255950550__70ba32b9-9b48-4ad6-89fc-2765a0e06777-16832184222e81c5aa-0",
-        "template--16877255950550__70ba32b9-9b48-4ad6-89fc-2765a0e06777-16832184222e81c5aa-1",
-        "template--16877255950550__70ba32b9-9b48-4ad6-89fc-2765a0e06777-16832184222e81c5aa-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "layout": "is-reversed",
-        "height": "image-height",
-        "mobile_height": "five-fifty-height-hero--mobile",
-        "width": "wrapper--full",
-        "image_1": "shopify:\/\/shop_images\/Group_427320076_1_33c98699-95c2-4a56-ba75-9732dcf4cc5e.png",
-        "image_width": "one-half",
-        "text_alignment": "text-left",
-        "bg_color": "#f9f8f4",
-        "color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "6325af4d-e44e-4c28-b3a1-6829f7522370": {
       "type": "section-double-new",
       "blocks": {
@@ -99,124 +49,6 @@
         "padding_bottom": 0
       }
     },
-    "slideshow": {
-      "type": "section-slideshow",
-      "blocks": {
-        "slideshow-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FLATLAY_02_no_STRING_db8fa906-e662-4f51-9434-9547eba0fd41.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/FLATLAY_01.jpg",
-            "overlay_opacity": 0,
-            "overlay_color": "#ffffff",
-            "show_overlay_text": true,
-            "title": "Completely Charmed",
-            "heading_size": 9,
-            "description": "Shop Golden Charms",
-            "text_size": 3,
-            "flex_align": "align--top-center",
-            "bg_color": "rgba(0,0,0,0)",
-            "color": "#000000",
-            "first_button_text": "Shop Charms",
-            "first_button_link": "shopify:\/\/collections\/charm-necklaces",
-            "first_button_type": "btn--primary",
-            "first_button_size": "btn--large",
-            "first_button_style": "btn--solid",
-            "first_button_show_arrow": false,
-            "second_button_text": "Shop Best Sellers",
-            "second_button_link": "shopify:\/\/collections\/best-sellers",
-            "second_button_type": "btn--white",
-            "second_button_size": "btn--large",
-            "second_button_style": "btn--solid",
-            "second_button_show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "slideshow-0"
-      ],
-      "disabled": true,
-      "settings": {
-        "height": "screen-height-two-thirds",
-        "mobile_height": "screen-height-three-quarters--mobile",
-        "width": "wrapper--full",
-        "transition": "slide",
-        "show_arrows": true,
-        "autoplay": false,
-        "autoplay_speed": 8
-      }
-    },
-    "75e3bf1b-1408-43f1-9a19-da5053b14e09": {
-      "type": "section-highlights",
-      "blocks": {
-        "template--16783574040790__75e3bf1b-1408-43f1-9a19-da5053b14e09-16682976293bcd54d6-1": {
-          "type": "highlight",
-          "settings": {
-            "heading": "",
-            "url": "shopify:\/\/collections\/necklaces",
-            "image": "shopify:\/\/shop_images\/Necklaces.png",
-            "color": "",
-            "bg_color": "#fcf4e1",
-            "border_color": "rgba(0,0,0,0)"
-          }
-        },
-        "template--16783574040790__75e3bf1b-1408-43f1-9a19-da5053b14e09-16682976293bcd54d6-2": {
-          "type": "highlight",
-          "settings": {
-            "heading": "",
-            "url": "shopify:\/\/collections\/bracelets",
-            "image": "shopify:\/\/shop_images\/Bracelets.png",
-            "color": "",
-            "bg_color": "#fcf4e1",
-            "border_color": "rgba(0,0,0,0)"
-          }
-        },
-        "template--16783574040790__75e3bf1b-1408-43f1-9a19-da5053b14e09-16682976293bcd54d6-3": {
-          "type": "highlight",
-          "settings": {
-            "heading": "",
-            "url": "shopify:\/\/collections\/earrings",
-            "image": "shopify:\/\/shop_images\/Earrings_1.png",
-            "color": "#ffffff",
-            "bg_color": "#f0f0f0",
-            "border_color": "rgba(0,0,0,0)"
-          }
-        },
-        "9bcf0ad6-2afe-4cc8-a97f-02b9704df79e": {
-          "type": "highlight",
-          "disabled": true,
-          "settings": {
-            "heading": "FINE",
-            "url": "",
-            "image": "shopify:\/\/shop_images\/new_fine_39e7b185-293f-4e07-9315-1b63f5a28f72.png",
-            "color": "#ffffff",
-            "bg_color": "#fcf4e1",
-            "border_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "template--16783574040790__75e3bf1b-1408-43f1-9a19-da5053b14e09-16682976293bcd54d6-1",
-        "template--16783574040790__75e3bf1b-1408-43f1-9a19-da5053b14e09-16682976293bcd54d6-2",
-        "template--16783574040790__75e3bf1b-1408-43f1-9a19-da5053b14e09-16682976293bcd54d6-3",
-        "9bcf0ad6-2afe-4cc8-a97f-02b9704df79e"
-      ],
-      "disabled": true,
-      "settings": {
-        "style": "square",
-        "grid": 3,
-        "width": "wrapper--full-padded",
-        "heading": "",
-        "heading_position": "text-left",
-        "heading_size": 4,
-        "text_size": 4,
-        "color": "",
-        "bg_color": "",
-        "layout_mobile": "carousel",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
     "f852ea23-6d58-416e-9852-759c06eff78e": {
       "type": "product-slider",
       "settings": {
@@ -226,7 +58,7 @@
     "831d82e0-5a9e-482a-a957-03010aa40aea": {
       "type": "custom-collection-grid",
       "settings": {
-        "color-1": "#FFFFFF",
+        "color-1": "#ffffff",
         "block-1": "EARRINGS",
         "block-2": "BRACELETS",
         "block-3": "RINGS",
@@ -238,340 +70,96 @@
         "opacity_range": 0
       }
     },
-    "4d711ad8-8e02-4137-8bdb-dcb4e2d2d7b3": {
-      "type": "section-announcement",
+    "e0656f20-0f8a-4f1f-8d79-2570fdffdc98": {
+      "type": "product-slider",
+      "settings": {
+        "collection": "best-sellers"
+      }
+    },
+    "a3a06106-8192-4e50-bf26-030ed8dee5ef": {
+      "type": "section-image-and-product",
       "blocks": {
-        "template--16783574040790__4d711ad8-8e02-4137-8bdb-dcb4e2d2d7b3-1668295247e258c95b-0": {
-          "type": "text",
+        "template--16938693689558__a3a06106-8192-4e50-bf26-030ed8dee5ef-heading-1": {
+          "type": "heading",
           "settings": {
-            "text": "<p>WOMEN OWNED <\/p>",
-            "target_device_enabled": false,
-            "target_device": "mobile"
+            "title": "Butterfly Silhouette Diamond Ring",
+            "text_size": 10
           }
         },
-        "template--16783574040790__4d711ad8-8e02-4137-8bdb-dcb4e2d2d7b3-1668295247e258c95b-1": {
-          "type": "text",
+        "15a0e5c9-4e9f-487a-8d33-58c9af307674": {
+          "type": "image",
           "settings": {
-            "text": "<p><strong>Create a free shipping countdown<\/strong><\/p>",
-            "target_device_enabled": false,
-            "target_device": "mobile"
+            "productimage": "shopify:\/\/shop_images\/Rectangle_74.png"
           }
         },
-        "template--16783574040790__4d711ad8-8e02-4137-8bdb-dcb4e2d2d7b3-1668295247e258c95b-2": {
-          "type": "message",
+        "template--16938693689558__a3a06106-8192-4e50-bf26-030ed8dee5ef-buttons-1": {
+          "type": "buttons",
           "settings": {
-            "show_wheel": false,
-            "message": "You are ||amount|| away from free shipping.",
-            "target_device_enabled": false,
-            "target_device": "mobile"
+            "button_text": "Enquire",
+            "button_url": "",
+            "button_type": "btn--black",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": false
           }
         },
-        "template--16783574040790__4d711ad8-8e02-4137-8bdb-dcb4e2d2d7b3-1668295247e258c95b-3": {
-          "type": "text",
+        "3b01390d-7d0e-4e86-92f7-e20b99a2b396": {
+          "type": "buttons",
           "settings": {
-            "text": "<p><strong>Create a scrolling marquee or a simple announcement<\/strong><\/p>",
-            "target_device_enabled": false,
-            "target_device": "mobile"
+            "button_text": "Appointment Booking",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--outline",
+            "show_arrow": false
           }
         }
       },
       "block_order": [
-        "template--16783574040790__4d711ad8-8e02-4137-8bdb-dcb4e2d2d7b3-1668295247e258c95b-0",
-        "template--16783574040790__4d711ad8-8e02-4137-8bdb-dcb4e2d2d7b3-1668295247e258c95b-1",
-        "template--16783574040790__4d711ad8-8e02-4137-8bdb-dcb4e2d2d7b3-1668295247e258c95b-2",
-        "template--16783574040790__4d711ad8-8e02-4137-8bdb-dcb4e2d2d7b3-1668295247e258c95b-3"
+        "template--16938693689558__a3a06106-8192-4e50-bf26-030ed8dee5ef-heading-1",
+        "15a0e5c9-4e9f-487a-8d33-58c9af307674",
+        "template--16938693689558__a3a06106-8192-4e50-bf26-030ed8dee5ef-buttons-1",
+        "3b01390d-7d0e-4e86-92f7-e20b99a2b396"
       ],
-      "disabled": true,
       "settings": {
-        "layout": "marquee",
-        "slider_speed": 7,
-        "marquee_speed": 100,
-        "text_size": 2,
-        "bg_color": "#744c39",
-        "color": "#ffffff",
+        "layout": "",
+        "height": "four-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/Rectangle_76.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "bg_color": "#f9f7f8",
+        "color": "",
         "padding_top": 0,
         "padding_bottom": 0
       }
     },
-    "tabs": {
-      "type": "section-tab-collections",
+    "ea686f87-dccb-479b-912b-3004a102a8eb": {
+      "type": "section-collections-list-new",
       "blocks": {
-        "tabs-1": {
-          "type": "collection",
-          "settings": {
-            "title": "New In",
-            "featured_collection": "whats-new",
-            "show_image": true,
-            "image": "{{ block.settings.featured_collection.image }}",
-            "align_with_product_images": false,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "description": "",
-            "color": "#ffffff",
-            "link_text": "Shop Earrings",
-            "link": "",
-            "button_type": "btn--white",
-            "button_size": "",
-            "button_style": "hero__btn btn btn--large btn--outline caps",
-            "show_arrow": false
-          }
-        },
-        "tabs-0": {
-          "type": "collection",
-          "settings": {
-            "title": "Necklaces",
-            "featured_collection": "best-selling-necklaces",
-            "show_image": true,
-            "image": "shopify:\/\/shop_images\/IMG_9CFD75CF53C2-1.jpg",
-            "align_with_product_images": false,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "description": "",
-            "color": "#ffffff",
-            "link_text": "Shop necklaces",
-            "link": "",
-            "button_type": "btn--white",
-            "button_size": "",
-            "button_style": "hero__btn btn btn--large btn--outline caps",
-            "show_arrow": false
-          }
-        },
-        "202b4c35-d5e7-46fc-92ef-fbb03f3211fc": {
-          "type": "collection",
-          "settings": {
-            "title": "Rings",
-            "featured_collection": "rings",
-            "show_image": true,
-            "image": "{{ block.settings.featured_collection.image }}",
-            "align_with_product_images": false,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "description": "",
-            "color": "#ffffff",
-            "link_text": "Shop Rings",
-            "link": "",
-            "button_type": "btn--white",
-            "button_size": "",
-            "button_style": "hero__btn btn btn--large btn--outline caps",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "tabs-1",
-        "tabs-0",
-        "202b4c35-d5e7-46fc-92ef-fbb03f3211fc"
-      ],
-      "settings": {
-        "title": "",
-        "text": "<h3>NEW IN<\/h3>",
-        "layout": "left",
-        "show_product_count": false,
-        "bg_color": "",
-        "color": "",
-        "padding_top": 20,
-        "padding_bottom": 40
-      }
-    },
-    "docs": {
-      "type": "section-rich-text",
-      "blocks": {
-        "subheading": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "&#9733; &#9733; &#9733; &#9733; &#9733;",
-            "text_size": 5
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "WHAT PEOPLE ARE SAYING ABOUT US",
-            "text_size": 5
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>\"The perfect casual, wear everyday type of necklace! It's great quality, I wear mine all the time.\" - Peyton<\/p>",
-            "text_size": 3,
-            "text_style": "font-body"
-          }
-        },
-        "buttons": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "see more",
-            "button_url": "shopify:\/\/pages\/reviews",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "standard__cta caps--large",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "subheading",
-        "heading",
-        "text",
-        "buttons"
-      ],
-      "settings": {
-        "width": "wrapper",
-        "align_text": "text-left",
-        "bg_color": "#ffffff",
-        "color": "",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
-    "rich-text": {
-      "type": "section-rich-text",
-      "blocks": {
-        "subheading": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Time is money",
-            "text_size": 3
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Built for speed",
-            "text_size": 8
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Broadcast was built from the ground up to take advantage of modern development techniques that make your site run as fast as possible.  Using progressive technique like image lazy-loading, code splitting, and preloading, Broadcast is the fast and nimble platform your store needs to level up.  Customers are not patient, and you should not be settling for less.<\/p>",
-            "text_size": 3,
-            "text_style": "font-body"
-          }
-        },
-        "buttons": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "Ready set go",
-            "button_url": "shopify:\/\/collections",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "standard__cta caps--large",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "subheading",
-        "heading",
-        "text",
-        "buttons"
-      ],
-      "disabled": true,
-      "settings": {
-        "width": "wrapper",
-        "align_text": "text-left",
-        "bg_color": "#ffffff",
-        "color": "",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
-    "lookbook": {
-      "type": "section-look",
-      "blocks": {
-        "2308197d-bb12-4414-a01d-03d7275a36a3": {
-          "type": "product",
-          "settings": {
-            "product": "handmade-cuffed-hoop-earrings",
-            "position_x": 30,
-            "position_y": 57
-          }
-        },
-        "6d4ace60-ded3-412c-b234-f48ed7215d50": {
-          "type": "product",
-          "settings": {
-            "product": "modern-everyday-huggie-earrings",
-            "position_x": 27,
-            "position_y": 62
-          }
-        },
-        "a74a44a1-b811-4e7a-ab87-2a84a5176f58": {
-          "type": "product",
-          "settings": {
-            "product": "believe-in-balance-necklace-1",
-            "position_x": 77,
-            "position_y": 75
-          }
-        },
-        "994d7821-fdef-4fb0-8c6e-76d36623632b": {
-          "type": "product",
-          "settings": {
-            "product": "faith-small-sideways-cross-charm-necklace",
-            "position_x": 81,
-            "position_y": 81
-          }
-        },
-        "8b85fb96-efd4-4607-bdf6-a86c95f8d815": {
-          "type": "product",
-          "settings": {
-            "product": "copy-of-faceted-ball-chain-necklace-18",
-            "position_x": 88,
-            "position_y": 90
-          }
-        }
-      },
-      "block_order": [
-        "2308197d-bb12-4414-a01d-03d7275a36a3",
-        "6d4ace60-ded3-412c-b234-f48ed7215d50",
-        "a74a44a1-b811-4e7a-ab87-2a84a5176f58",
-        "994d7821-fdef-4fb0-8c6e-76d36623632b",
-        "8b85fb96-efd4-4607-bdf6-a86c95f8d815"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Shop_The_Look_6.png",
-        "title": "Shop the look",
-        "show_dots": true,
-        "enable_aspect_ratio": true,
-        "image_aspect_ratio": 1,
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": true,
-        "bg_color": "",
-        "color": "",
-        "dot_color": "",
-        "dot_background": "",
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "6790cb0d-a667-4aa7-a279-4e99e036fcc1": {
-      "type": "section-collections-list",
-      "blocks": {
-        "template--16783574040790__6790cb0d-a667-4aa7-a279-4e99e036fcc1-1668292023a757ce0f-0": {
+        "template--16938693689558__ea686f87-dccb-479b-912b-3004a102a8eb-collection-1": {
           "type": "collection",
           "settings": {
             "collection": "charm-necklaces",
             "title": ""
           }
         },
-        "template--16783574040790__6790cb0d-a667-4aa7-a279-4e99e036fcc1-1668292023a757ce0f-2": {
+        "template--16938693689558__ea686f87-dccb-479b-912b-3004a102a8eb-collection-2": {
           "type": "collection",
           "settings": {
             "collection": "dogeared-fine",
             "title": ""
           }
         },
-        "template--16783574040790__6790cb0d-a667-4aa7-a279-4e99e036fcc1-1668292023a757ce0f-1": {
+        "template--16938693689558__ea686f87-dccb-479b-912b-3004a102a8eb-collection-3": {
           "type": "collection",
           "settings": {
             "collection": "cross-necklaces",
             "title": ""
           }
         },
-        "template--16783574040790__6790cb0d-a667-4aa7-a279-4e99e036fcc1-1668292023a757ce0f-3": {
+        "template--16938693689558__ea686f87-dccb-479b-912b-3004a102a8eb-collection-4": {
           "type": "collection",
           "settings": {
             "collection": "pearls",
@@ -580,448 +168,136 @@
         }
       },
       "block_order": [
-        "template--16783574040790__6790cb0d-a667-4aa7-a279-4e99e036fcc1-1668292023a757ce0f-0",
-        "template--16783574040790__6790cb0d-a667-4aa7-a279-4e99e036fcc1-1668292023a757ce0f-2",
-        "template--16783574040790__6790cb0d-a667-4aa7-a279-4e99e036fcc1-1668292023a757ce0f-1",
-        "template--16783574040790__6790cb0d-a667-4aa7-a279-4e99e036fcc1-1668292023a757ce0f-3"
+        "template--16938693689558__ea686f87-dccb-479b-912b-3004a102a8eb-collection-1",
+        "template--16938693689558__ea686f87-dccb-479b-912b-3004a102a8eb-collection-2",
+        "template--16938693689558__ea686f87-dccb-479b-912b-3004a102a8eb-collection-3",
+        "template--16938693689558__ea686f87-dccb-479b-912b-3004a102a8eb-collection-4"
       ],
       "settings": {
-        "title": "",
+        "title": "The Collections",
         "description": "",
         "layout": "grid",
         "aspect_ratio": 1,
         "grid": 4,
         "enable_slider": true,
         "bg_color": "",
-        "color": "",
-        "padding_top": 60,
-        "padding_bottom": 0
+        "color": "#ffffff",
+        "padding_top": 100,
+        "padding_bottom": 32
       }
     },
-    "f9adbd3e-061f-41de-9292-20ac657eb223": {
-      "type": "text-promo",
+    "e141d344-13f9-4f49-b67f-18dc31ace168": {
+      "type": "section-double-quote",
       "blocks": {
-        "template--16783574040790__f9adbd3e-061f-41de-9292-20ac657eb223-166829062959ff8511-0": {
-          "type": "heading",
+        "060be63e-fe9e-4745-bba4-c5f2bbecee60": {
+          "type": "quote",
           "settings": {
-            "title": "GIFT GUIDE"
           }
         },
-        "template--16783574040790__f9adbd3e-061f-41de-9292-20ac657eb223-166829062959ff8511-1": {
+        "template--16938693689558__e141d344-13f9-4f49-b67f-18dc31ace168-text-1": {
           "type": "text",
           "settings": {
-            "content": "Our 2022 gift guide is here!"
-          }
-        },
-        "template--16783574040790__f9adbd3e-061f-41de-9292-20ac657eb223-166829062959ff8511-2": {
-          "type": "button",
-          "settings": {
-            "button_text": "Shop now",
-            "button_url": "shopify:\/\/pages\/2022-holiday-gift-guide",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "hero__btn btn btn--input btn--outline caps",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16783574040790__f9adbd3e-061f-41de-9292-20ac657eb223-166829062959ff8511-0",
-        "template--16783574040790__f9adbd3e-061f-41de-9292-20ac657eb223-166829062959ff8511-1",
-        "template--16783574040790__f9adbd3e-061f-41de-9292-20ac657eb223-166829062959ff8511-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "width": "",
-        "border": true,
-        "bg_color": "",
-        "color": "#744c39",
-        "image": "shopify:\/\/shop_images\/Pasted_Graphic_3.png",
-        "overlay_opacity": 0,
-        "overlay_color": "#000000",
-        "show_overlay_text": false,
-        "padding_top": 50,
-        "padding_bottom": 0
-      }
-    },
-    "image-with-text": {
-      "type": "section-custom-content",
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "subheading": "",
-            "subheading_size": 3,
-            "title": "About Us",
-            "heading_size": 7,
-            "text": "<p>When you “dog ear” the corner of a book page, it is a reminder of a place you want to  return to. The name Dogeared was born from this idea, that you come back to a piece again and again because it reminds you of the people, places, milestones, and moments.<\/p><p>We create authentic and effortless pieces designed to be inherently connective. We’re constantly guided by the power of meaning and the desire to create lasting good--and sharing jewelry that reflects this with the world.<\/p>",
-            "text_size": 2,
-            "button_text": "Learn More",
-            "button_url": "shopify:\/\/pages\/about-us",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "hero__btn btn btn--large btn--outline caps",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "#ffffff",
-            "color": ""
-          }
-        },
-        "image": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Dogeared_archives_48.jpg",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "show_overlay_text": false,
-            "title": "",
-            "heading_size": 7,
-            "description": "",
-            "text_size": 3,
-            "flex_align": "align--middle-left",
-            "bg_color": "",
-            "color": "#ffffff",
-            "link_text": "",
-            "link": "\/collections\/all",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "hero__btn btn btn--large btn--outline caps",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "text",
-        "image"
-      ],
-      "settings": {
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
-        "width": "wrapper--full",
-        "borders": false,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "587ee7b6-cee3-4b36-9d4b-32f0d6f959f3": {
-      "type": "section-custom-content",
-      "blocks": {
-        "template--16809891430614__587ee7b6-cee3-4b36-9d4b-32f0d6f959f3-1680462634cb176bec-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/b_corp.png",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "show_overlay_text": false,
-            "title": "",
-            "heading_size": 7,
-            "description": "",
-            "text_size": 3,
-            "flex_align": "align--middle-center",
-            "bg_color": "",
-            "color": "#ffffff",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "hero__btn btn btn--large btn--outline caps",
-            "show_arrow": false
-          }
-        },
-        "template--16809891430614__587ee7b6-cee3-4b36-9d4b-32f0d6f959f3-1680462634cb176bec-1": {
-          "type": "text",
-          "settings": {
-            "subheading": "",
-            "subheading_size": 3,
-            "title": "Our Promise",
-            "heading_size": 7,
-            "text": "<p>Since the beginning, Dogeared has been entirely committed to creating good. In 2011, Dogeared became one of the first companies to become a B corporation, a special corporate structure dedicated to redefining the success of business to include social and environmental good. <\/p>",
-            "text_size": 3,
-            "button_text": "Read more",
-            "button_url": "shopify:\/\/pages\/the-legacy-of-giving",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "hero__btn btn btn--large btn--outline caps",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16809891430614__587ee7b6-cee3-4b36-9d4b-32f0d6f959f3-1680462634cb176bec-0",
-        "template--16809891430614__587ee7b6-cee3-4b36-9d4b-32f0d6f959f3-1680462634cb176bec-1"
-      ],
-      "settings": {
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
-        "width": "wrapper--full",
-        "borders": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "3db93895-cac6-42bf-9b01-12edc090e5f3": {
-      "type": "section-double",
-      "blocks": {
-        "template--16783574040790__3db93895-cac6-42bf-9b01-12edc090e5f3-16686498266fd13302-0": {
-          "type": "heading",
-          "settings": {
-            "title": "",
-            "text_size": 8
-          }
-        },
-        "template--16783574040790__3db93895-cac6-42bf-9b01-12edc090e5f3-16686498266fd13302-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Since the beginning, Dogeared has been entirely committed to creating good. In 2011, Dogeared became one of the first companies to become a B corporation, a special corporate structure dedicated to redefining the success of business to include social and environmental good. <\/p>",
-            "text_size": 3,
+            "text": "<p>The perfect casual, wear everyday type of necklace! It's great quality, I wear mine all the time.<\/p>",
+            "text_size": 4,
             "text_style": "font-body"
           }
         },
-        "template--16783574040790__3db93895-cac6-42bf-9b01-12edc090e5f3-16686498266fd13302-2": {
-          "type": "buttons",
+        "template--16938693689558__e141d344-13f9-4f49-b67f-18dc31ace168-heading-1": {
+          "type": "heading",
           "settings": {
-            "button_text": "Learn more",
-            "button_url": "shopify:\/\/pages\/about-us",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "standard__cta caps--large",
-            "show_arrow": false
+            "title": "Martinez",
+            "text_size": 8
           }
         }
       },
       "block_order": [
-        "template--16783574040790__3db93895-cac6-42bf-9b01-12edc090e5f3-16686498266fd13302-0",
-        "template--16783574040790__3db93895-cac6-42bf-9b01-12edc090e5f3-16686498266fd13302-1",
-        "template--16783574040790__3db93895-cac6-42bf-9b01-12edc090e5f3-16686498266fd13302-2"
+        "060be63e-fe9e-4745-bba4-c5f2bbecee60",
+        "template--16938693689558__e141d344-13f9-4f49-b67f-18dc31ace168-text-1",
+        "template--16938693689558__e141d344-13f9-4f49-b67f-18dc31ace168-heading-1"
       ],
-      "disabled": true,
       "settings": {
         "layout": "",
         "height": "image-height",
-        "mobile_height": "image-height",
-        "width": "wrapper--full",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper",
+        "image_1": "shopify:\/\/shop_images\/Screenshot_2023-05-29_at_9.25_1.png",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "bg_color": "",
-        "color": "",
-        "padding_top": 0,
-        "padding_bottom": 40
+        "color": "#000000",
+        "padding_top": 200,
+        "padding_bottom": 200
       }
     },
-    "featured-collection": {
-      "type": "section-collection",
-      "disabled": true,
+    "c6708314-7b2e-4734-9a72-4a10d1d86a1c": {
+      "type": "section-blog-new",
       "settings": {
-        "heading": "Featured Collection",
-        "description": "",
-        "layout": "center",
-        "link_text": "",
-        "link_url": "",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "hero__btn btn btn--input btn--outline caps",
-        "show_arrow": false,
-        "featured_collection": "",
-        "style": "grid",
-        "grid": 4,
-        "rows": 2,
-        "layout_mobile": "carousel",
+        "blog_name": "blogs",
+        "title": "World of dogeared",
+        "grid": 3,
+        "rows": 1,
+        "aspect_ratio": 0.7,
+        "show_tags": false,
+        "show_author": false,
+        "show_date": true,
+        "show_button": false,
+        "show_comments": false,
         "bg_color": "",
         "color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
-    "2675c7fe-b035-4f01-b906-f3cccefde81e": {
-      "type": "section-recent-products",
-      "settings": {
-        "product_recently_heading": "Keep Shopping",
-        "product_recently_limit": 6,
-        "product_recently_minimum": 1,
-        "bg_color": "",
-        "color": "",
-        "padding_top": 100,
+        "padding_top": 32,
         "padding_bottom": 100
       }
     },
-    "1668290607c08c5a09": {
-      "type": "apps",
+    "82564327-e34d-4dc5-a0b8-07b29bc94ea9": {
+      "type": "section-newsletter-new",
       "blocks": {
-        "0aba3fe6-420c-4f58-b900-8bae6cc89add": {
-          "type": "shopify:\/\/apps\/shoppable-instagram-ugc\/blocks\/custom_slider\/e2616dfe-fbb6-4e7d-874d-d250b973556d",
+        "template--16938693689558__82564327-e34d-4dc5-a0b8-07b29bc94ea9-newsletter-1": {
+          "type": "newsletter",
           "settings": {
-            "foreground_color": "#ffffff",
-            "background_color": "#000000",
-            "background_color_alpha": 37,
-            "post_spacing": 1,
-            "hover_margin": 0,
-            "cell_size": "20%",
-            "target_blank": true,
-            "arrows_outside": false,
-            "show_icon": true,
-            "show_text": false,
-            "show_date": false,
-            "call_to_action": "SHOP IT",
-            "shop_type": "button",
-            "body_font_size": 14,
-            "body_font": "helvetica_n4",
-            "accent_font_size": 14,
-            "accent_font": "helvetica_n4",
-            "override_feed_id": "",
-            "arbitrary_attributes": "",
-            "custom_css": "",
-            "custom_js": ""
+            "subheading": "",
+            "subheading_size": 3,
+            "heading": "Get on the list",
+            "heading_size": 7,
+            "text": "",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#f4f1e9",
+            "color": "",
+            "show_name": true,
+            "button_text": "Subscribe",
+            "show_arrow": false,
+            "terms": false,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false
           }
         }
       },
       "block_order": [
-        "0aba3fe6-420c-4f58-b900-8bae6cc89add"
+        "template--16938693689558__82564327-e34d-4dc5-a0b8-07b29bc94ea9-newsletter-1"
       ],
       "settings": {
-        "include_margins": false
-      }
-    },
-    "icons": {
-      "type": "section-text-row",
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": 5,
-        "align_text": "text-left",
-        "icon_alignment": "icon--top",
-        "align_columns": "flex-align-top",
-        "width": "wrapper--full-padded",
-        "bg_color": "#fffcf4",
+        "height": "three-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "bg_color": "#f4f1e9",
         "color": "",
-        "padding_top": 100,
-        "padding_bottom": 20,
-        "layout_mobile": "carousel"
-      }
-    },
-    "66632f4c-7e5a-4239-a60a-efb2e29c6223": {
-      "type": "section-highlights",
-      "blocks": {
-        "template--16783574040790__66632f4c-7e5a-4239-a60a-efb2e29c6223-16682976293bcd54d6-0": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Necklaces",
-            "url": "shopify:\/\/collections\/necklaces",
-            "color": "#ffffff",
-            "bg_color": "#9e684e",
-            "border_color": "rgba(0,0,0,0)"
-          }
-        },
-        "template--16783574040790__66632f4c-7e5a-4239-a60a-efb2e29c6223-16682976293bcd54d6-1": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Bracelets",
-            "url": "shopify:\/\/collections\/bracelets",
-            "color": "{{ shop.brand.colors.primary[0].foreground }}",
-            "bg_color": "#9e684e",
-            "border_color": "rgba(0,0,0,0)"
-          }
-        },
-        "template--16783574040790__66632f4c-7e5a-4239-a60a-efb2e29c6223-16682976293bcd54d6-2": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Rings",
-            "url": "shopify:\/\/collections\/rings",
-            "color": "{{ shop.brand.colors.primary[0].foreground }}",
-            "bg_color": "#9e684e",
-            "border_color": "rgba(0,0,0,0)"
-          }
-        },
-        "template--16783574040790__66632f4c-7e5a-4239-a60a-efb2e29c6223-16682976293bcd54d6-3": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Earrings",
-            "url": "shopify:\/\/collections\/earrings",
-            "color": "{{ shop.brand.colors.primary[0].foreground }}",
-            "bg_color": "#9e684e",
-            "border_color": "rgba(0,0,0,0)"
-          }
-        },
-        "template--16783574040790__66632f4c-7e5a-4239-a60a-efb2e29c6223-16682976293bcd54d6-4": {
-          "type": "highlight",
-          "settings": {
-            "heading": "GIFTS",
-            "url": "shopify:\/\/collections\/gifts",
-            "color": "{{ shop.brand.colors.primary[0].foreground }}",
-            "bg_color": "#9e684e",
-            "border_color": "rgba(0,0,0,0)"
-          }
-        },
-        "template--16783574040790__66632f4c-7e5a-4239-a60a-efb2e29c6223-16682976293bcd54d6-5": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Best sellers",
-            "url": "shopify:\/\/collections\/best-sellers",
-            "color": "{{ shop.brand.colors.primary[0].foreground }}",
-            "bg_color": "#9e684e",
-            "border_color": "rgba(0,0,0,0)"
-          }
-        }
-      },
-      "block_order": [
-        "template--16783574040790__66632f4c-7e5a-4239-a60a-efb2e29c6223-16682976293bcd54d6-0",
-        "template--16783574040790__66632f4c-7e5a-4239-a60a-efb2e29c6223-16682976293bcd54d6-1",
-        "template--16783574040790__66632f4c-7e5a-4239-a60a-efb2e29c6223-16682976293bcd54d6-2",
-        "template--16783574040790__66632f4c-7e5a-4239-a60a-efb2e29c6223-16682976293bcd54d6-3",
-        "template--16783574040790__66632f4c-7e5a-4239-a60a-efb2e29c6223-16682976293bcd54d6-4",
-        "template--16783574040790__66632f4c-7e5a-4239-a60a-efb2e29c6223-16682976293bcd54d6-5"
-      ],
-      "settings": {
-        "style": "button",
-        "grid": 6,
-        "width": "wrapper--full-padded",
-        "heading": "",
-        "heading_position": "text-center",
-        "heading_size": 8,
-        "text_size": 1,
-        "color": "",
-        "bg_color": "#fffcf4",
-        "layout_mobile": "2",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "1680477234e50209f9": {
-      "type": "apps",
-      "disabled": true,
-      "settings": {
-        "include_margins": false
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
-    "70ba32b9-9b48-4ad6-89fc-2765a0e06777",
     "6325af4d-e44e-4c28-b3a1-6829f7522370",
-    "slideshow",
-    "75e3bf1b-1408-43f1-9a19-da5053b14e09",
     "f852ea23-6d58-416e-9852-759c06eff78e",
     "831d82e0-5a9e-482a-a957-03010aa40aea",
-    "4d711ad8-8e02-4137-8bdb-dcb4e2d2d7b3",
-    "tabs",
-    "docs",
-    "rich-text",
-    "lookbook",
-    "6790cb0d-a667-4aa7-a279-4e99e036fcc1",
-    "f9adbd3e-061f-41de-9292-20ac657eb223",
-    "image-with-text",
-    "587ee7b6-cee3-4b36-9d4b-32f0d6f959f3",
-    "3db93895-cac6-42bf-9b01-12edc090e5f3",
-    "featured-collection",
-    "2675c7fe-b035-4f01-b906-f3cccefde81e",
-    "1668290607c08c5a09",
-    "icons",
-    "66632f4c-7e5a-4239-a60a-efb2e29c6223",
-    "1680477234e50209f9"
+    "e0656f20-0f8a-4f1f-8d79-2570fdffdc98",
+    "a3a06106-8192-4e50-bf26-030ed8dee5ef",
+    "ea686f87-dccb-479b-912b-3004a102a8eb",
+    "e141d344-13f9-4f49-b67f-18dc31ace168",
+    "c6708314-7b2e-4734-9a72-4a10d1d86a1c",
+    "82564327-e34d-4dc5-a0b8-07b29bc94ea9"
   ]
 }

@@ -4,7 +4,12 @@
 </head>
 
 <div class="product-grid-outer">
-  <h2>{{section.settings.collection.title}}</h2>
+  {% if section.settings.slider_title and section.settings.slider_title != "" %}
+    <h2>{{ section.settings.slider_title }}</h2>
+  {% else %}
+    <h2>{{ section.settings.collection.title }}</h2>
+  {% endif %}
+
   <div class="glide addon-carousel">
     <div class="glide__track" data-glide-el="track">
       <div class="glide__slides">
@@ -70,8 +75,15 @@
 
   <div class="btn-container">
     <a href="{{section.settings.collection.url}}" class="btn  btn--outline btn--primary">
-      <span>All {{section.settings.collection.title}}</span><svg xmlns="http://www.w3.org/2000/svg" width="7" height="8" viewBox="0 0 7 8" fill="none">
-      <path d="M0.5 0H2.43277L6.5 3.99129L2.43277 8H0.5L4.56723 3.99129L0.5 0Z" fill="#332F2F"></path>
+      <span> 
+        {% if section.settings.slider_button_text and section.settings.slider_button_text != "" %}
+          {{section.settings.slider_button_text}}
+        {% else %}
+          {{section.settings.collection.title}}
+        {% endif %}
+      </span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="7" height="8" viewBox="0 0 7 8" fill="none">
+        <path d="M0.5 0H2.43277L6.5 3.99129L2.43277 8H0.5L4.56723 3.99129L0.5 0Z" fill="#332F2F"></path>
       </svg>
     </a>
   </div>
@@ -98,9 +110,19 @@
     ],
     "settings": [
       {
+        "type": "text",
+        "id": "slider_title",
+        "label": "Slider Title"
+      },
+      {
         "type": "collection",
         "id": "collection",
         "label": "Collection"
+      },
+      {
+        "type": "text",
+        "id": "slider_button_text",
+        "label": "Slider Button Text"
       }
     ]
   }
