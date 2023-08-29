@@ -1,0 +1,96 @@
+<head>
+    {{ 'glide.theme.min.css' | asset_url | stylesheet_tag }}
+    {{ 'glide.core.min.css' | asset_url | stylesheet_tag }}
+    
+</head>
+
+<div class="glide addon-carousel glider-carousel-custom">
+  <div class="glide__track" data-glide-el="track">
+    <div class="glide__slides">
+      {% for product in collections['marketplace'].products %}
+        <div class="glide__slide">
+          <div class="product-card-container">
+            <div class="product-image">
+              <a href="{{ product.url }}">
+                <img src="{{ product.featured_image | image_url }}">
+              </a>
+            </div>
+            <div class="product-details">
+              <div class="product-info">
+                  <span class="product-vendor">{{ product.vendor }}</span>
+                  <span class="product-title">{{ product.title }}</span>
+                  <div class="product-price-wrapper">
+                    <span class="product-price{% if on_sale %} on-sale{% endif %}">
+                      {% if product.price_varies %}{{ 'products.general.from' | t }} {% endif %}
+                        {%- if settings.currency_code_enable -%}
+                          {{ product.price | money_with_currency }}
+                        {%- else -%}
+                          {{ product.price | money }}
+                      {%- endif -%}
+                    </span>
+                    {% if on_sale %}
+                      <span class="product-price compare-at">
+                        {%- if settings.currency_code_enable -%}
+                          {{ product.compare_at_price | money_with_currency }}
+                        {%- else -%}
+                          {{ product.compare_at_price | money }}
+                        {%- endif -%}
+                      </span>
+                    {% endif %}
+                  </div>
+              </div>
+              <button class="product-add-cart" type="submit" data-add-to-cart><span class="add-button-text">Add to Cart</span></button>
+            </div>                          
+          </div>
+      </div>
+      {% endfor %}
+    </div>
+    
+  <div class="glide__arrows" data-glide-el="controls">
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+      <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M15.293 3.293 6.586 12l8.707 8.707 1.414-1.414L9.414 12l7.293-7.293-1.414-1.414z"/>
+        <style>.icon-arrow{fill: gray}</style>
+      </svg>
+    </button>
+    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+      <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z"/>
+        <style>.icon-arrow{fill: gray}</style>
+      </svg>
+    </button>
+  </div>
+  </div>
+        
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+<script type="text/javascript">
+  new Glide('.glide', {
+    type: 'carousel',
+    perView: 3
+    }).mount()
+</script>
+
+<style>
+  .glide img{
+    display: block;
+    max-width: 100%;
+  }
+</style>
+        
+{% schema %}
+  {
+    "name": "Custom Product Slider",
+    "settings": [
+      {
+        "type": "color",
+        "id": "color-1",
+        "label": "Color 1",
+        "default": "#FFFFFF"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

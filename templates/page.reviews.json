@@ -1,0 +1,304 @@
+{
+  "sections": {
+    "c8204dc8-9c51-4734-98e2-5516ca12cac4": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "html": "<span> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0428\/6172\/3805\/files\/aboutus-header.webp?v=1668808224\" style=\"width:100%;padding:80px;\"><\/span>",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "f4cd6d75-f68c-415e-a97d-7c1d49a495f6": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "template--16783574139094__f4cd6d75-f68c-415e-a97d-7c1d49a495f6-1668557570273d0350-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pasted_Graphic_5.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "template--16783574139094__f4cd6d75-f68c-415e-a97d-7c1d49a495f6-1668557570273d0350-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "About Us",
+            "heading_size": 7,
+            "text": "<p>When you “dog ear” the corner of a book page, it is a reminder of a place you want to return to. The name Dogeared was born from this idea, that you come back to a piece again and again because it reminds you of the people, places, milestones, and moments.<\/p><p>For me, the Dogeared pieces have done exactly that. The jewelry I created in the beginning, on my kitchen table to sell at the Rose Bowl Flea Market, brings me back to the feeling of youthful spontaneity, warm Los Angeles nights, and the desire to make something that lasts forever. Each evolution of Dogeared, every piece and every product, marks a moment and feeling in my life. And from thirty years of Dogeared stories, we are grateful that our jewels are part of your memories. So much has changed since the beginning, but what has remained constant is that this jewelry connects you with your moments, your people, your places, and yourself.<\/p><p>Dogeared is about you. It’s an external expression of your internal beliefs, feelings, and mantras. We’re so honored that we get to be a part of your life.<\/p>",
+            "text_size": 1,
+            "button_text": "",
+            "button_url": "",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16783574139094__f4cd6d75-f68c-415e-a97d-7c1d49a495f6-1668557570273d0350-0",
+        "template--16783574139094__f4cd6d75-f68c-415e-a97d-7c1d49a495f6-1668557570273d0350-1"
+      ],
+      "settings": {
+        "height": "four-fifty-height-hero",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "a1e69fe1-7a7b-41d0-a11e-484bd191ad07": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "template--16783574139094__a1e69fe1-7a7b-41d0-a11e-484bd191ad07-1668807835a4eba4ce-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "More Than Jewelry",
+            "heading_size": 7,
+            "text": "<p>I love words. Rooted in the power of words and positive energy, Dogeared designs have a voice, each jewel dedicated with a name and message. This is Dogeared: an outside reminder of what’s on the inside.<\/p><p>The idea that great style should be effortless, authentic and real has evolved into Dogeared’s core design philosophy: keep it simple, make it special, and create timeless jewelry that celebrates self-expression and relationships. Life in Southern California is my greatest inspiration, and the cool, uncomplicated nature of Dogeared designs reflect this modern, laid-back lifestyle.<\/p><p>You’ll know when you find your special pieces here. They’ll be the ones that speak to your heart and leave you feeling inspired by what’s within it.<\/p>",
+            "text_size": 1,
+            "button_text": "",
+            "button_url": "",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        },
+        "template--16783574139094__a1e69fe1-7a7b-41d0-a11e-484bd191ad07-1668807835a4eba4ce-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pasted_Graphic_4.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--16783574139094__a1e69fe1-7a7b-41d0-a11e-484bd191ad07-1668807835a4eba4ce-1",
+        "template--16783574139094__a1e69fe1-7a7b-41d0-a11e-484bd191ad07-1668807835a4eba4ce-0"
+      ],
+      "settings": {
+        "height": "four-fifty-height-hero",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16687944131789b475": {
+      "type": "apps",
+      "blocks": {
+        "be0a4add-1415-4a14-ad50-1603fac03e50": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "",
+            "widget_type": "reviews_widget"
+          }
+        },
+        "ce6391d7-52b2-4cac-897e-b4a942541428": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/media-grid\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "be0a4add-1415-4a14-ad50-1603fac03e50",
+        "ce6391d7-52b2-4cac-897e-b4a942541428"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "aacdb985-d327-4456-b28c-d8d379237df6": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "template--16783574139094__aacdb985-d327-4456-b28c-d8d379237df6-1668807835a4eba4ce-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Certified.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "template--16783574139094__aacdb985-d327-4456-b28c-d8d379237df6-1668807835a4eba4ce-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "True Originals",
+            "heading_size": 7,
+            "text": "<p>Our pieces are made to be timeless, special, and mindful. As a certified B corporation, we ensure that our jewelry adheres to the highest standards of social and environmental performance. As responsible creators, this is the foundation of our mission and this pursuit takes shape in many forms.<\/p><p>First, we’re dedicated to the concept of slow fashion: the design and creation of year-round products made to last. So, your Dogeared will be beautiful now and for decades to come. We feel so grateful when you send us stories about the beautiful ways that Dogeared impacted your life because it's proof that all the little details matter!<\/p><p><br\/>Also, Dogeared is committed to supporting team members, our community, and the local economy by making most of our products in the USA. We source from the global creative community with some of our collections, and we note where that is the case. We use recycled sterling silver, keep our products 100% nickel-free, and use recycled packaging and mailers. Keeping it clean minimizes our environmental impact while maximizing our jewel’s impact.<\/p><p>Finally, we use an ancient technique called the lost wax casting process to create pieces that are totally unique to us. The lost wax process ensures each charm is truly handcrafted and made to last; an approach that connects the history of ancient jewelry craftsmanship to the modern styles we love today.<\/p>",
+            "text_size": 1,
+            "button_text": "",
+            "button_url": "",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16783574139094__aacdb985-d327-4456-b28c-d8d379237df6-1668807835a4eba4ce-0",
+        "template--16783574139094__aacdb985-d327-4456-b28c-d8d379237df6-1668807835a4eba4ce-1"
+      ],
+      "settings": {
+        "height": "four-fifty-height-hero",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "8afa18a7-2631-4511-823e-fa414b72257b": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "template--16783574139094__8afa18a7-2631-4511-823e-fa414b72257b-1668807835a4eba4ce-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "A Legacy of Giving",
+            "heading_size": 7,
+            "text": "<p>Giving back is what makes Dogeared, well, Dogeared! Since our inception, we’ve created a legacy of good--from our first hire, a single mom living on the streets, to now, becoming a certified B corporation that founds and funds non-profits we believe in. When you wear your Dogeared, you can be proud that you’re representing a company that creates and inspires good.<\/p><p>We became a B corporation in 2011, making us one of the first companies to do so. We’ve always been committed to social and environmental responsibility and we are very proud of this certification. A B corporation is a corporate structure dedicated to redefining the success of business as a force for good. Through purpose-driven practices, we take action to create beauty responsibly. This is the foundation of our business practices and we’re in good company with over 3,500 other B corporations! In 2017, Dogeared became the official sponsor of the Do Good Bus, a unique and fun community service experience that takes groups on a surprise day-long outing to give back to our Los Angeles community. The Do Good Bus connects friendship, positive change, mystery, team-building, and doing good within its four walls, but its ripple effects go far beyond.<\/p><p>In 2021, we embarked on our second bus-related journey: we bought a 1971 Volkswagen bus and named her Winni. Winni will serve as a space for conversations, ideas, and experiences that create and perpetuate good.<\/p><p>Our commitment to giving goes beyond our good-creating vehicles--we give back to, partner with, and volunteer at amazing organizations that are doing amazing things. Check them out!<\/p>",
+            "text_size": 1,
+            "button_text": "",
+            "button_url": "",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        },
+        "template--16783574139094__8afa18a7-2631-4511-823e-fa414b72257b-1668807835a4eba4ce-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pasted_Graphic_13.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--16783574139094__8afa18a7-2631-4511-823e-fa414b72257b-1668807835a4eba4ce-1",
+        "template--16783574139094__8afa18a7-2631-4511-823e-fa414b72257b-1668807835a4eba4ce-0"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "0440d66a-2142-4f9f-859f-8072e44540d7": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "html": "<span> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0428\/6172\/3805\/files\/Screen_Shot_2021-05-24_at_3.05.43_PM_480x480_1c92cfbe-9f2b-4144-8409-9f3aa4961dce.jpg?v=1668808376\" alt=\"marcia signature\"><\/span>",
+        "width": "wrapper--narrow",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 27,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "c8204dc8-9c51-4734-98e2-5516ca12cac4",
+    "main",
+    "f4cd6d75-f68c-415e-a97d-7c1d49a495f6",
+    "a1e69fe1-7a7b-41d0-a11e-484bd191ad07",
+    "16687944131789b475",
+    "aacdb985-d327-4456-b28c-d8d379237df6",
+    "8afa18a7-2631-4511-823e-fa414b72257b",
+    "0440d66a-2142-4f9f-859f-8072e44540d7"
+  ]
+}

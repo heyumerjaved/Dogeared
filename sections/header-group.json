@@ -1,0 +1,95 @@
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "63cbc5b4-e7a7-47fd-bbb5-b723f8eeea00": {
+          "type": "custom",
+          "settings": {
+            "text": "",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "307fd669-7a12-46e4-9e58-9230819c2900": {
+          "type": "message",
+          "settings": {
+            "show_wheel": true,
+            "message": "You are ||amount|| away from free domestic shipping.",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "b84fc0bc-410a-47a1-8c82-3acf97b46759": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Our <strong>20% off sale<\/strong> is still going! Use code <strong>20IN2022<\/strong> at checkout<\/p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "63cbc5b4-e7a7-47fd-bbb5-b723f8eeea00",
+        "307fd669-7a12-46e4-9e58-9230819c2900",
+        "b84fc0bc-410a-47a1-8c82-3acf97b46759"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "slider",
+        "slider_speed": 5,
+        "show_arrows": false,
+        "marquee_speed": 50,
+        "text_size": 3,
+        "bg_color": "#9e684e",
+        "color": "#ffffff"
+      }
+    },
+    "custom-header": {
+      "type": "custom-header",
+      "settings": {
+        "header_sticky": true,
+        "header_style": "logo_above",
+        "show_icons": false,
+        "icon_as_circle": false,
+        "cart_icon_family": "bag-new",
+        "logo": "shopify:\/\/shop_images\/header-logo.svg",
+        "logo_max_limit": 30,
+        "main_menu_linklist": "rebrand-desktop-main-menu",
+        "enable_search": true,
+        "show_social_icons": false,
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "type": "currency",
+        "highlight_item": "Fine Jewelry",
+        "highlight_item_color": "#744c39",
+        "transparent_home": false,
+        "transparent_collection": false,
+        "transparent_article": false,
+        "transparent_page": false,
+        "transparent_logo": "shopify:\/\/shop_images\/LOGO.svg",
+        "secondary_menu_linklist": "nov-main-menu",
+        "tertiary_menu_linklist": ""
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "custom-header"
+  ]
+}

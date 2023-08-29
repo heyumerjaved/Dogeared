@@ -1,0 +1,135 @@
+{
+  "sections": {
+    "main": {
+      "type": "cart",
+      "settings": {
+        "padding_top": 80,
+        "padding_bottom": 50
+      }
+    },
+    "08ab5896-cc32-4da6-84da-b83d187588a6": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "heading": "BEST SELLERS",
+        "description": "",
+        "layout": "center",
+        "link_text": "",
+        "link_url": "shopify:\/\/collections\/best-sellers",
+        "button_type": "btn--primary",
+        "button_size": "btn--large",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "featured_collection": "best-sellers",
+        "style": "slider",
+        "grid": 4,
+        "rows": 3,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "63143cdf-bca8-4164-8268-2d98b25c1c99": {
+      "type": "section-recent-products",
+      "settings": {
+        "product_recently_heading": "Keep Shopping",
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "a7f34c7e-2b2f-447d-8d84-a2c8c80823af": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "heading": "Best Sellers",
+        "description": "",
+        "layout": "center",
+        "link_text": "Shop Now",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "featured_collection": "",
+        "style": "grid",
+        "grid": 4,
+        "rows": 3,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "97f93aae-6481-4632-88f0-91a26d9d8647": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "template--16877255622870__97f93aae-6481-4632-88f0-91a26d9d8647-16804720601d268f2a-0": {
+          "type": "collection",
+          "settings": {
+            "title": "Best sellers",
+            "featured_collection": "best-sellers",
+            "show_image": true,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "description": "",
+            "color": "#fff",
+            "link_text": "Shop best sellers",
+            "link": "shopify:\/\/collections\/best-sellers",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "template--16877255622870__97f93aae-6481-4632-88f0-91a26d9d8647-16804720601d268f2a-1": {
+          "type": "collection",
+          "settings": {
+            "title": "Recently Added",
+            "featured_collection": "whats-new",
+            "show_image": true,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "description": "",
+            "color": "#fff",
+            "link_text": "Just added",
+            "link": "shopify:\/\/collections\/whats-new",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16877255622870__97f93aae-6481-4632-88f0-91a26d9d8647-16804720601d268f2a-0",
+        "template--16877255622870__97f93aae-6481-4632-88f0-91a26d9d8647-16804720601d268f2a-1"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "main",
+    "08ab5896-cc32-4da6-84da-b83d187588a6",
+    "63143cdf-bca8-4164-8268-2d98b25c1c99",
+    "a7f34c7e-2b2f-447d-8d84-a2c8c80823af",
+    "97f93aae-6481-4632-88f0-91a26d9d8647"
+  ]
+}

@@ -1,0 +1,197 @@
+{
+    "type": "footer",
+    "name": "Footer",
+    "sections": {
+      "footer-new": {
+        "type": "footer-new",
+        "blocks": {
+          "footer-0": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Join Us",
+              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+              "show_name": false,
+              "button_text": "Join",
+              "show_arrow": false,
+              "terms": true,
+              "button_type": "btn--black",
+              "button_size": "",
+              "button_style": "btn--solid",
+              "show_social_links": true,
+              "column_width": 50
+            }
+          },
+          "footer-1": {
+            "type": "linklist",
+            "settings": {
+              "linklist": "main-menu",
+              "title": "Keep Shopping",
+              "column_width": 25
+            }
+          },
+          "1c50cf22-5f29-454b-8a4a-2dedbaedc7c7": {
+            "type": "linklist",
+            "settings": {
+              "linklist": "customer-care",
+              "title": "Customer Care",
+              "column_width": 25
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "1c50cf22-5f29-454b-8a4a-2dedbaedc7c7"
+        ],
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/LOGO.svg",
+          "logo_image_width": 150,
+          "overlay_opacity": 75,
+          "overlay_color": "#ffffff",
+          "footer_secondary_linklist": "about",
+          "footer_payment_enable": true,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "type": "currency",
+          "padding_top": 75,
+          "padding_bottom": 65
+        }
+      },
+      "popups": {
+        "type": "popups",
+        "blocks": {
+          "popups-0": {
+            "type": "cookie",
+            "disabled": true,
+            "settings": {
+              "position": "popup-cookies--right",
+              "show_cookies_popup": false
+            }
+          },
+          "8767b350-7d56-4153-a452-62d43300b530": {
+            "type": "newsletter",
+            "disabled": true,
+            "settings": {
+              "heading": "<p>Sign up and get 10% off your first order<\/p>",
+              "success": "",
+              "bg_color": "",
+              "color": "",
+              "position": "small-newsletter--top-right",
+              "trigger": "always",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          },
+          "083f9df7-12cd-4a5e-9e02-b819bb4e71c9": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "title": "Text block",
+              "text": "<p>Use this text to share announcements or sales.<\/p>",
+              "color": "",
+              "bg_color": "",
+              "button_text": "Learn more",
+              "button_url": "",
+              "button_type": "btn--primary",
+              "button_size": "",
+              "button_style": "hero__btn btn btn--large btn--outline caps",
+              "show_arrow": false,
+              "position": "popup-cookies--center",
+              "trigger": "always",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          },
+          "08eef91d-e290-4629-b6ab-257dbd0410a9": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "title": "Text block",
+              "text": "<p>Use this text to share announcements or sales.<\/p>",
+              "color": "",
+              "bg_color": "",
+              "button_text": "Learn more",
+              "button_url": "",
+              "button_type": "btn--primary",
+              "button_size": "",
+              "button_style": "btn--solid",
+              "show_arrow": false,
+              "position": "popup-cookies--left",
+              "trigger": "always",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          },
+          "3e512293-b418-4737-8833-2490937e0b46": {
+            "type": "newsletter",
+            "disabled": true,
+            "settings": {
+              "heading": "<p>Sign up and get 10% off your first order<\/p>",
+              "success": "",
+              "bg_color": "",
+              "color": "",
+              "position": "small-newsletter--top-right",
+              "trigger": "always",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          },
+          "beea2ce2-fb58-499e-b4f8-5f391cdc73ad": {
+            "type": "popup",
+            "disabled": true,
+            "settings": {
+              "subheading": "Broadcast",
+              "title": "Newsletter",
+              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+              "bg_color": "",
+              "color": "",
+              "newsletter_enable": true,
+              "show_name": false,
+              "button_text": "Join",
+              "show_arrow": false,
+              "terms": true,
+              "button_type": "btn--primary",
+              "button_size": "",
+              "button_style": "btn--solid",
+              "trigger": "always",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          }
+        },
+        "block_order": [
+          "popups-0",
+          "8767b350-7d56-4153-a452-62d43300b530",
+          "083f9df7-12cd-4a5e-9e02-b819bb4e71c9",
+          "08eef91d-e290-4629-b6ab-257dbd0410a9",
+          "3e512293-b418-4737-8833-2490937e0b46",
+          "beea2ce2-fb58-499e-b4f8-5f391cdc73ad"
+        ],
+        "settings": {}
+      }
+    },
+    "order": [
+      "footer-new",
+      "popups"
+    ]
+  }

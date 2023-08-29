@@ -1,0 +1,177 @@
+<style>
+    @font-face {
+      font-family: Pherome;
+      src: url({{ 'Pherome-Regular.ttf' | asset_url }});
+    }
+
+    .image-blocks {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 10px;
+      width: 100%;
+      aspect-ratio: 2/1;
+      padding: 30px 50px; /*TODO: Make dynamic */
+    }
+
+    .block-image {
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    .block-image::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, {{ section.settings.opacity_range }});
+      z-index: 1;
+    }
+  
+    .block-image-1 {
+      background-image: url("{{ section.settings.image-1 | img_url:'master' }}");
+      grid-column: 1 / span 1;
+      grid-row: 1 / span 2;
+    }
+
+    .block-image-2 {
+      background-image: url("{{ section.settings.image-2 | img_url:'master' }}");
+      grid-column: 2 / span 1;
+      grid-row: 1 / span 1;
+    }
+
+    .block-image-3 {
+      background-image: url("{{ section.settings.image-3 | img_url:'master' }}");
+      grid-column: 2 / span 1;
+      grid-row: 2 / span 1;
+    }
+
+    .block-image-4 {
+      background-image: url("{{ section.settings.image-4 | img_url:'master' }}");
+      grid-column: 3 / span 1;
+      grid-row: 1 / span 2;
+    }
+    
+    .block-text {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: {{ section.settings.color-1 }};
+      font-family: Pherome;
+      font-size: 48px;
+      font-weight: 400;
+      text-align: center;
+      z-index: 2;
+    }
+</style>
+  
+<div class="image-blocks">
+      <a href=" {{ collections['Earrings'].url}} " class="block-image block-image-1">
+        <div class="block-text">
+          {{ section.settings.block-1 }}
+        </div>
+      </a>
+
+      <a href=" {{ collections['Bracelets'].url}} " class="block-image block-image-2">
+        <div class="block-text">
+          {{ section.settings.block-2 }}
+        </div>
+      </a>
+
+      <a href=" {{ collections['Rings'].url}} " class="block-image block-image-3">
+        <div class="block-text">
+          {{ section.settings.block-3 }}
+        </div>
+      </a>
+
+      <a href=" {{ collections['Necklaces'].url}} " class="block-image block-image-4">
+        <div class="block-text">
+          {{ section.settings.block-4 }}
+        </div>
+      </a>
+</div>
+
+{% schema %}
+  {
+    "name": "Collection Grid",
+    "tag": "section",
+    "presets": [
+      {
+        "name": "Collection Grid"
+      }
+    ],
+    "settings": [
+      {
+        "type": "color",
+        "id": "color-1",
+        "label": "Color 1",
+        "default": "#FFFFFF"
+      },
+      {
+        "type": "text",
+        "id": "block-1",
+        "label": "Block 1",
+        "default": "Block 1"
+      },
+      {
+        "type": "text",
+        "id": "block-2",
+        "label": "Block 2",
+        "default": "Block 2"
+      },
+      {
+        "type": "text",
+        "id": "block-3",
+        "label": "Block 3",
+        "default": "Block 3"
+      },
+      {
+        "type": "text",
+        "id": "block-4",
+        "label": "Block 4",
+        "default": "Block 4"
+      },
+      {
+        "type": "image_picker",
+        "id": "image-1",
+        "label": "Image 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "image-2",
+        "label": "Image 2"
+      },
+      {
+        "type": "image_picker",
+        "id": "image-3",
+        "label": "Image 3"
+      },
+      {
+        "type": "image_picker",
+        "id": "image-4",
+        "label": "Image 4"
+      },
+      {
+        "type": "range",
+        "id": "opacity_range",
+        "min": 0.0,
+        "max": 1.0,
+        "step": 0.1,
+        "label": "Image Opacity",
+        "default": 0.0
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

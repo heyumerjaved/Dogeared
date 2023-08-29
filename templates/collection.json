@@ -1,0 +1,254 @@
+{
+  "sections": {
+    "5564980b-9deb-4eba-b333-0b775dbb17c1": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--16783573975254__5564980b-9deb-4eba-b333-0b775dbb17c1-1668302905c826b340-1": {
+          "type": "heading",
+          "settings": {
+            "title": "{{ collection.title }}",
+            "text_size": 5
+          }
+        },
+        "template--16783573975254__5564980b-9deb-4eba-b333-0b775dbb17c1-1668302905c826b340-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ collection.metafields.custom.description | metafield_tag }}<\/p>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16783573975254__5564980b-9deb-4eba-b333-0b775dbb17c1-1668302905c826b340-1",
+        "template--16783573975254__5564980b-9deb-4eba-b333-0b775dbb17c1-1668302905c826b340-2"
+      ],
+      "settings": {
+        "width": "wrapper--full-padded",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "flex_align": "align--middle-left",
+        "bg_color": "rgba(0,0,0,0)",
+        "color": "#fffcf4",
+        "show_image": true,
+        "banner_layout": "overlay",
+        "height": "two-fifty-height-hero",
+        "mobile_height": "two-fifty-height-hero--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#fffcf4",
+        "show_overlay_text": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b0f789a9-15e7-44fe-ba56-f4886973a945": {
+      "type": "section-collections-list",
+      "blocks": {
+        "template--16877255852246__b0f789a9-15e7-44fe-ba56-f4886973a945-1680476647188da8fa-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "necklaces",
+            "collection_image": "shopify:\/\/shop_images\/necklaces-pearls.png",
+            "title": ""
+          }
+        },
+        "template--16877255852246__b0f789a9-15e7-44fe-ba56-f4886973a945-1680476647188da8fa-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "rings",
+            "title": ""
+          }
+        },
+        "template--16877255852246__b0f789a9-15e7-44fe-ba56-f4886973a945-1680476647188da8fa-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "bracelets",
+            "title": ""
+          }
+        },
+        "template--16877255852246__b0f789a9-15e7-44fe-ba56-f4886973a945-1680476647188da8fa-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "earrings",
+            "title": ""
+          }
+        },
+        "ead5cc38-857b-4308-ae94-c546179a9aef": {
+          "type": "collection",
+          "settings": {
+            "collection": "dogeared-fine",
+            "title": ""
+          }
+        },
+        "e81ec329-04e7-4311-b3a3-d4c4a4a2fe7a": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16877255852246__b0f789a9-15e7-44fe-ba56-f4886973a945-1680476647188da8fa-0",
+        "template--16877255852246__b0f789a9-15e7-44fe-ba56-f4886973a945-1680476647188da8fa-1",
+        "template--16877255852246__b0f789a9-15e7-44fe-ba56-f4886973a945-1680476647188da8fa-2",
+        "template--16877255852246__b0f789a9-15e7-44fe-ba56-f4886973a945-1680476647188da8fa-3",
+        "ead5cc38-857b-4308-ae94-c546179a9aef",
+        "e81ec329-04e7-4311-b3a3-d4c4a4a2fe7a"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "layout": "grid",
+        "aspect_ratio": 0.5,
+        "grid": 6,
+        "enable_slider": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "disabled": true,
+      "settings": {
+        "subcollection_layout": "carousel",
+        "subcollection_description": false,
+        "select_image": "collection",
+        "bg_color": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "b3f749ac-2f11-4ebd-a725-de077bd5075c": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "featured_image": "{{ collection.image }}",
+            "featured_heading": "",
+            "featured_text": "",
+            "featured_button_text": "",
+            "featured_button_link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "featured_color_text": "#ffffff",
+            "featured_color_overlay": "#222222",
+            "featured_overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "b3f749ac-2f11-4ebd-a725-de077bd5075c"
+      ],
+      "settings": {
+        "enable_sort": true,
+        "enable_filters": true,
+        "filter_layout": "inline-open",
+        "collection_linklist": "shop-all",
+        "grid": 4,
+        "grid_mobile": "2",
+        "product_limit": 50,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "879a1157-dcf1-499a-85ee-36c327b8a109": {
+      "type": "section-recent-products",
+      "settings": {
+        "product_recently_heading": "Recently viewed",
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "6d3bffa4-b3e5-4b07-9ea0-74f4f1b75c3e": {
+      "type": "section-look",
+      "blocks": {
+        "template--16783573975254__6d3bffa4-b3e5-4b07-9ea0-74f4f1b75c3e-16682873661cf737bc-0": {
+          "type": "product",
+          "settings": {
+            "product": "paperclip-chain-bracelet",
+            "position_x": 29,
+            "position_y": 37
+          }
+        },
+        "template--16783573975254__6d3bffa4-b3e5-4b07-9ea0-74f4f1b75c3e-16682873661cf737bc-1": {
+          "type": "product",
+          "settings": {
+            "product": "trust-in-your-journey-compass-bracelet",
+            "position_x": 8,
+            "position_y": 60
+          }
+        },
+        "463f72bf-6548-41c7-8187-ee3fb5864cd5": {
+          "type": "product",
+          "settings": {
+            "product": "three-wishes-pearl-bracelet",
+            "position_x": 21,
+            "position_y": 50
+          }
+        },
+        "70d56c26-935d-4a47-8f83-78388fde4e9a": {
+          "type": "product",
+          "settings": {
+            "product": "three-pearl-bracelet-with-beaded-chain",
+            "position_x": 44,
+            "position_y": 50
+          }
+        }
+      },
+      "block_order": [
+        "template--16783573975254__6d3bffa4-b3e5-4b07-9ea0-74f4f1b75c3e-16682873661cf737bc-0",
+        "template--16783573975254__6d3bffa4-b3e5-4b07-9ea0-74f4f1b75c3e-16682873661cf737bc-1",
+        "463f72bf-6548-41c7-8187-ee3fb5864cd5",
+        "70d56c26-935d-4a47-8f83-78388fde4e9a"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/for_daughters.png",
+        "title": "Shop the look",
+        "show_dots": true,
+        "enable_aspect_ratio": true,
+        "image_aspect_ratio": 1,
+        "button_type": "btn--white",
+        "button_size": "",
+        "button_style": "btn--outline",
+        "show_arrow": false,
+        "bg_color": "",
+        "color": "",
+        "dot_color": "",
+        "dot_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "5564980b-9deb-4eba-b333-0b775dbb17c1",
+    "hero",
+    "b0f789a9-15e7-44fe-ba56-f4886973a945",
+    "subcollections",
+    "main",
+    "879a1157-dcf1-499a-85ee-36c327b8a109",
+    "6d3bffa4-b3e5-4b07-9ea0-74f4f1b75c3e"
+  ]
+}

@@ -1,0 +1,113 @@
+<head>
+    {{ 'glide.theme.min.css' | asset_url | stylesheet_tag }}
+    {{ 'glide.core.min.css' | asset_url | stylesheet_tag }}
+</head>
+
+<div class="product-grid-outer">
+  <h2>{{section.settings.collection.title}}</h2>
+  <div class="glide addon-carousel">
+    <div class="glide__track" data-glide-el="track">
+      <div class="glide__slides">
+        {% for product in section.settings.collection.products limit:12 %}
+          <div class="glide__slide">
+            <div class="product-card-container">
+              <div class="product-image">
+                <a href="{{ product.url }}">
+                  <img src="{{ product.featured_image | image_url }}">
+                </a>
+              </div>
+              <div class="product-details">
+                <div class="product-info">
+                    <span class="product-title">{{ product.title }}</span>
+                    {% if product.variants.size > 0 %}
+                    {% capture variant_titles %}
+                      {% for variant in product.variants %}
+                        {{ variant.title }},
+                      {% endfor %}
+                    {% endcapture %}
+                      <span class="variant-list">{{ variant_titles | remove_last: ','}}</span>
+                    {% endif %}
+                    <div class="product-price-wrapper">
+                      <span class="product-price{% if on_sale %} on-sale{% endif %}">
+                        {% if product.price_varies %}{{ 'products.general.from' | t }} {% endif %}
+                          {%- if settings.currency_code_enable -%}
+                            {{ product.price | money_with_currency }}
+                          {%- else -%}
+                            {{ product.price | money }}
+                        {%- endif -%}
+                      </span>
+                      {% if on_sale %}
+                        <span class="product-price compare-at">
+                          {%- if settings.currency_code_enable -%}
+                            {{ product.compare_at_price | money_with_currency }}
+                          {%- else -%}
+                            {{ product.compare_at_price | money }}
+                          {%- endif -%}
+                        </span>
+                      {% endif %}
+                    </div>
+                </div>
+              </div>                          
+            </div>
+        </div>
+        {% endfor %}
+      </div>
+      
+      <div class="glide__arrows" data-glide-el="controls">
+        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+          <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M15.293 3.293 6.586 12l8.707 8.707 1.414-1.414L9.414 12l7.293-7.293-1.414-1.414z"/>
+            <style>.icon-arrow{fill: gray}</style>
+          </svg>
+        </button>
+        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+          <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z"/>
+            <style>.icon-arrow{fill: gray}</style>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="btn-container">
+    <a href="{{section.settings.collection.url}}" class="btn  btn--outline btn--primary">
+      <span>All {{section.settings.collection.title}}</span><svg xmlns="http://www.w3.org/2000/svg" width="7" height="8" viewBox="0 0 7 8" fill="none">
+      <path d="M0.5 0H2.43277L6.5 3.99129L2.43277 8H0.5L4.56723 3.99129L0.5 0Z" fill="#332F2F"></path>
+      </svg>
+    </a>
+  </div>
+</div>
+        
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+
+
+<style>
+  .glide img{
+    display: block;
+    max-width: 100%;
+  }
+</style>
+
+{% schema %}
+  {
+    "name": "Custom Product Slider",
+    "class": "custom-product-slider",
+    "presets": [
+      {
+        "name": "Custom Product Slider"
+      }
+    ],
+    "settings": [
+      {
+        "type": "collection",
+        "id": "collection",
+        "label": "Collection"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

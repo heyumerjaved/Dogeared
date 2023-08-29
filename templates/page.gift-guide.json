@@ -1,0 +1,240 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": false,
+        "heading_size": 8,
+        "show_content": false,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper--full",
+        "bg_color": "#720303",
+        "color": "{{ shop.brand.colors.primary[0].foreground }}",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "799faf28-db53-4cd1-8760-c202115c34b0": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16784164978902__799faf28-db53-4cd1-8760-c202115c34b0-166829202463d0a11c-0": {
+          "type": "heading",
+          "settings": {
+            "title": "GIFTS FOR MOM",
+            "heading_size": 10
+          }
+        },
+        "template--16784164978902__799faf28-db53-4cd1-8760-c202115c34b0-166829202463d0a11c-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "description": "Tell your brand's story through images.",
+            "text_size": 5,
+            "text_style": "font-heading"
+          }
+        },
+        "template--16784164978902__799faf28-db53-4cd1-8760-c202115c34b0-166829202463d0a11c-2": {
+          "type": "button",
+          "settings": {
+            "link_text": "View products",
+            "link": "shopify:\/\/collections\/gifts-for-mom",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--16784164978902__799faf28-db53-4cd1-8760-c202115c34b0-166829202463d0a11c-0",
+        "template--16784164978902__799faf28-db53-4cd1-8760-c202115c34b0-166829202463d0a11c-1",
+        "template--16784164978902__799faf28-db53-4cd1-8760-c202115c34b0-166829202463d0a11c-2"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-full--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "40cf8d58-89e8-41c8-8b2a-c3e4df9130c9": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16784164978902__40cf8d58-89e8-41c8-8b2a-c3e4df9130c9-166829202463d0a11c-0": {
+          "type": "heading",
+          "settings": {
+            "title": "GIFTS FOR DAUGHTERS",
+            "heading_size": 10
+          }
+        },
+        "template--16784164978902__40cf8d58-89e8-41c8-8b2a-c3e4df9130c9-166829202463d0a11c-2": {
+          "type": "button",
+          "settings": {
+            "link_text": "View products",
+            "link": "shopify:\/\/collections\/gifts-for-daughters",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--16784164978902__40cf8d58-89e8-41c8-8b2a-c3e4df9130c9-166829202463d0a11c-0",
+        "template--16784164978902__40cf8d58-89e8-41c8-8b2a-c3e4df9130c9-166829202463d0a11c-2"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-full--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "5ecf7fb5-2917-4c68-85d7-c2324ff3f6bd": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16784164978902__5ecf7fb5-2917-4c68-85d7-c2324ff3f6bd-166829202463d0a11c-0": {
+          "type": "heading",
+          "settings": {
+            "title": "BEST SELLERS",
+            "heading_size": 10
+          }
+        },
+        "template--16784164978902__5ecf7fb5-2917-4c68-85d7-c2324ff3f6bd-166829202463d0a11c-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "description": "Tell your brand's story through images.",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "template--16784164978902__5ecf7fb5-2917-4c68-85d7-c2324ff3f6bd-166829202463d0a11c-2": {
+          "type": "button",
+          "settings": {
+            "link_text": "View products",
+            "link": "shopify:\/\/collections\/best-sellers",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--16784164978902__5ecf7fb5-2917-4c68-85d7-c2324ff3f6bd-166829202463d0a11c-0",
+        "template--16784164978902__5ecf7fb5-2917-4c68-85d7-c2324ff3f6bd-166829202463d0a11c-1",
+        "template--16784164978902__5ecf7fb5-2917-4c68-85d7-c2324ff3f6bd-166829202463d0a11c-2"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-full--mobile",
+        "mobile_image": "shopify:\/\/shop_images\/anyone_2_02bdad45-d9b7-4408-8d11-fd73f6f6368c.png",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "d0c8fcb7-6bf9-49d6-adb5-fd928fb30e2b": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16784164978902__d0c8fcb7-6bf9-49d6-adb5-fd928fb30e2b-166829202463d0a11c-0": {
+          "type": "heading",
+          "settings": {
+            "title": "PEARLS",
+            "heading_size": 10
+          }
+        },
+        "template--16784164978902__d0c8fcb7-6bf9-49d6-adb5-fd928fb30e2b-166829202463d0a11c-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "description": "Tell your brand's story through images.",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "template--16784164978902__d0c8fcb7-6bf9-49d6-adb5-fd928fb30e2b-166829202463d0a11c-2": {
+          "type": "button",
+          "settings": {
+            "link_text": "View products",
+            "link": "shopify:\/\/collections\/pearls",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--16784164978902__d0c8fcb7-6bf9-49d6-adb5-fd928fb30e2b-166829202463d0a11c-0",
+        "template--16784164978902__d0c8fcb7-6bf9-49d6-adb5-fd928fb30e2b-166829202463d0a11c-1",
+        "template--16784164978902__d0c8fcb7-6bf9-49d6-adb5-fd928fb30e2b-166829202463d0a11c-2"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-full--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "9c1e8956-c303-42d9-8340-43305ba32088": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16784164978902__9c1e8956-c303-42d9-8340-43305ba32088-166829202463d0a11c-0": {
+          "type": "heading",
+          "settings": {
+            "title": "GIFTS UNDER $50",
+            "heading_size": 10
+          }
+        },
+        "template--16784164978902__9c1e8956-c303-42d9-8340-43305ba32088-166829202463d0a11c-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "description": "Tell your brand's story through images.",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "template--16784164978902__9c1e8956-c303-42d9-8340-43305ba32088-166829202463d0a11c-2": {
+          "type": "button",
+          "settings": {
+            "link_text": "View products",
+            "link": "shopify:\/\/collections\/gifts-under-50",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--16784164978902__9c1e8956-c303-42d9-8340-43305ba32088-166829202463d0a11c-0",
+        "template--16784164978902__9c1e8956-c303-42d9-8340-43305ba32088-166829202463d0a11c-1",
+        "template--16784164978902__9c1e8956-c303-42d9-8340-43305ba32088-166829202463d0a11c-2"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-full--mobile",
+        "overlay_opacity": 10,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#fefefe"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "799faf28-db53-4cd1-8760-c202115c34b0",
+    "40cf8d58-89e8-41c8-8b2a-c3e4df9130c9",
+    "5ecf7fb5-2917-4c68-85d7-c2324ff3f6bd",
+    "d0c8fcb7-6bf9-49d6-adb5-fd928fb30e2b",
+    "9c1e8956-c303-42d9-8340-43305ba32088"
+  ]
+}

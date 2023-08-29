@@ -1,0 +1,218 @@
+{
+  "sections": {
+    "5564980b-9deb-4eba-b333-0b775dbb17c1": {
+      "type": "section-rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--16783573975254__5564980b-9deb-4eba-b333-0b775dbb17c1-1668302905c826b340-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3
+          }
+        },
+        "template--16783573975254__5564980b-9deb-4eba-b333-0b775dbb17c1-1668302905c826b340-1": {
+          "type": "heading",
+          "settings": {
+            "title": "{{ collection.title }}",
+            "text_size": 6
+          }
+        },
+        "template--16783573975254__5564980b-9deb-4eba-b333-0b775dbb17c1-1668302905c826b340-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>An investment in fine jewelry is an investment in yourself. Because you deserve nice things that last forever. Settle down with the pieces that just get you.<\/p>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        },
+        "template--16783573975254__5564980b-9deb-4eba-b333-0b775dbb17c1-1668302905c826b340-3": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--16783573975254__5564980b-9deb-4eba-b333-0b775dbb17c1-1668302905c826b340-0",
+        "template--16783573975254__5564980b-9deb-4eba-b333-0b775dbb17c1-1668302905c826b340-1",
+        "template--16783573975254__5564980b-9deb-4eba-b333-0b775dbb17c1-1668302905c826b340-2",
+        "template--16783573975254__5564980b-9deb-4eba-b333-0b775dbb17c1-1668302905c826b340-3"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "{{ shop.brand.colors.primary[0].background }}",
+        "color": "#ffffff",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "acf55fd1-d93c-4f6b-879e-0a26458310f7": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16783573975254__acf55fd1-d93c-4f6b-879e-0a26458310f7-16682873660033383d-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Fine by Dogeared",
+            "heading_size": 6
+          }
+        },
+        "template--16783573975254__acf55fd1-d93c-4f6b-879e-0a26458310f7-16682873660033383d-1": {
+          "type": "text",
+          "settings": {
+            "description": "An investment in fine jewelry is an investment in yourself. Because you deserve nice things that last forever. Settle down with the pieces that just get you.",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "template--16783573975254__acf55fd1-d93c-4f6b-879e-0a26458310f7-16682873660033383d-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text": "Shop All",
+            "link": "",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--16783573975254__acf55fd1-d93c-4f6b-879e-0a26458310f7-16682873660033383d-0",
+        "template--16783573975254__acf55fd1-d93c-4f6b-879e-0a26458310f7-16682873660033383d-1",
+        "template--16783573975254__acf55fd1-d93c-4f6b-879e-0a26458310f7-16682873660033383d-2"
+      ],
+      "settings": {
+        "height": "four-fifty-height-hero",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "flex_align": "align--middle-left",
+        "bg_color": "{{ shop.brand.colors.primary[0].background }}",
+        "color": "{{ shop.brand.colors.secondary[0].foreground }}",
+        "show_image": false,
+        "banner_layout": "overlay",
+        "height": "two-fifty-height-hero",
+        "mobile_height": "two-fifty-height-hero--mobile",
+        "overlay_opacity": 55,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollection_layout": "grid",
+        "subcollection_description": false,
+        "select_image": "collection",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "b3f749ac-2f11-4ebd-a725-de077bd5075c": {
+          "type": "featured_image",
+          "settings": {
+            "featured_image": "{{ collection.image }}",
+            "featured_heading": "14Kt Gold",
+            "featured_text": "<p>without the ridiculous markup<\/p>",
+            "featured_button_text": "",
+            "featured_button_link": "",
+            "featured_color_text": "#ffffff",
+            "featured_color_overlay": "#222222",
+            "featured_overlay_opacity": 35
+          }
+        }
+      },
+      "block_order": [
+        "b3f749ac-2f11-4ebd-a725-de077bd5075c"
+      ],
+      "settings": {
+        "enable_sort": true,
+        "enable_filters": true,
+        "filter_layout": "inline-closed",
+        "collection_linklist": "shop-all",
+        "grid": 3,
+        "grid_mobile": "2",
+        "product_limit": 36,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "6d3bffa4-b3e5-4b07-9ea0-74f4f1b75c3e": {
+      "type": "section-look",
+      "blocks": {
+        "template--16783573975254__6d3bffa4-b3e5-4b07-9ea0-74f4f1b75c3e-16682873661cf737bc-0": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "position_x": 14,
+            "position_y": 37
+          }
+        },
+        "template--16783573975254__6d3bffa4-b3e5-4b07-9ea0-74f4f1b75c3e-16682873661cf737bc-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "position_x": 45,
+            "position_y": 60
+          }
+        }
+      },
+      "block_order": [
+        "template--16783573975254__6d3bffa4-b3e5-4b07-9ea0-74f4f1b75c3e-16682873661cf737bc-0",
+        "template--16783573975254__6d3bffa4-b3e5-4b07-9ea0-74f4f1b75c3e-16682873661cf737bc-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/homepage_options_2.png",
+        "title": "Shop the look",
+        "bg_color": "",
+        "color": "",
+        "dot_color": "",
+        "dot_background": "",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "879a1157-dcf1-499a-85ee-36c327b8a109": {
+      "type": "section-recent-products",
+      "settings": {
+        "product_recently_heading": "Recently viewed",
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "5564980b-9deb-4eba-b333-0b775dbb17c1",
+    "acf55fd1-d93c-4f6b-879e-0a26458310f7",
+    "hero",
+    "subcollections",
+    "main",
+    "6d3bffa4-b3e5-4b07-9ea0-74f4f1b75c3e",
+    "879a1157-dcf1-499a-85ee-36c327b8a109"
+  ]
+}
