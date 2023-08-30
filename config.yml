@@ -1,6 +1,0 @@
-development:
-  password: "shptka_8a9c48447c060919b5dff9470ab7b15c"
-  theme_id: "137827287254"
-  store: "dogeared-jewelry.myshopify.com"
-  ignore_files:
-    - config/settings_data.json
