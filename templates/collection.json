@@ -23,6 +23,7 @@
         "template--16783573975254__5564980b-9deb-4eba-b333-0b775dbb17c1-1668302905c826b340-1",
         "template--16783573975254__5564980b-9deb-4eba-b333-0b775dbb17c1-1668302905c826b340-2"
       ],
+      "disabled": true,
       "settings": {
         "width": "wrapper--full-padded",
         "align_text": "text-left",
@@ -107,6 +108,7 @@
         "ead5cc38-857b-4308-ae94-c546179a9aef",
         "e81ec329-04e7-4311-b3a3-d4c4a4a2fe7a"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "description": "",
@@ -160,7 +162,7 @@
       "settings": {
         "enable_sort": true,
         "enable_filters": true,
-        "filter_layout": "inline-open",
+        "filter_layout": "inline-closed",
         "collection_linklist": "shop-all",
         "grid": 4,
         "grid_mobile": "2",
@@ -171,6 +173,7 @@
     },
     "879a1157-dcf1-499a-85ee-36c327b8a109": {
       "type": "section-recent-products",
+      "disabled": true,
       "settings": {
         "product_recently_heading": "Recently viewed",
         "product_recently_limit": 6,
@@ -223,6 +226,7 @@
         "463f72bf-6548-41c7-8187-ee3fb5864cd5",
         "70d56c26-935d-4a47-8f83-78388fde4e9a"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/for_daughters.png",
         "title": "Shop the look",
@@ -240,6 +244,57 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "02f5858f-592e-4458-b6a0-a9405bd88dbc": {
+      "type": "section-collections-list-new",
+      "blocks": {
+        "template--16938693394646__02f5858f-592e-4458-b6a0-a9405bd88dbc-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "charm-necklaces",
+            "title": ""
+          }
+        },
+        "template--16938693394646__02f5858f-592e-4458-b6a0-a9405bd88dbc-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "dogeared-fine",
+            "title": ""
+          }
+        },
+        "template--16938693394646__02f5858f-592e-4458-b6a0-a9405bd88dbc-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "cross-necklaces",
+            "title": ""
+          }
+        },
+        "template--16938693394646__02f5858f-592e-4458-b6a0-a9405bd88dbc-collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "pearls",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16938693394646__02f5858f-592e-4458-b6a0-a9405bd88dbc-collection-1",
+        "template--16938693394646__02f5858f-592e-4458-b6a0-a9405bd88dbc-collection-2",
+        "template--16938693394646__02f5858f-592e-4458-b6a0-a9405bd88dbc-collection-3",
+        "template--16938693394646__02f5858f-592e-4458-b6a0-a9405bd88dbc-collection-4"
+      ],
+      "settings": {
+        "title": "The Collections",
+        "description": "",
+        "layout": "grid",
+        "aspect_ratio": 1,
+        "grid": 4,
+        "enable_slider": true,
+        "bg_color": "",
+        "color": "#ffffff",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
     }
   },
   "order": [
@@ -249,6 +304,7 @@
     "subcollections",
     "main",
     "879a1157-dcf1-499a-85ee-36c327b8a109",
-    "6d3bffa4-b3e5-4b07-9ea0-74f4f1b75c3e"
+    "6d3bffa4-b3e5-4b07-9ea0-74f4f1b75c3e",
+    "02f5858f-592e-4458-b6a0-a9405bd88dbc"
   ]
 }

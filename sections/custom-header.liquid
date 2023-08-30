@@ -24,6 +24,7 @@
   assign tertiary_menu_linklist = section.settings.tertiary_menu_linklist
 
   assign logo = section.settings.logo
+  assign logoinvert = section.settings.logoinvert
   assign transparent_logo = section.settings.transparent_logo
 
   if transparent_logo != blank and logo == blank
@@ -137,7 +138,15 @@
         {% if logo_width_value %}
           style="width: {{ logo_width_value }};"
         {% endif %}>
-      {%- if logo != blank -%}
+      {% if logo != blank and template == "collection" %}
+        {%- liquid
+        assign alt = logo.alt | default: shop.name | strip_html | escape
+        assign width = logo_width_x2
+        assign sizes = logo_width | append: 'px'
+        assign widths = logo_width | append: ',' | append: logo_width_x2
+        render 'image' image: logoinvert, width: width, sizes: sizes, widths: widths, alt: alt, modifier: 'logo__img logo__img--color', loading: 'eager', fetchpriority: 'high', preload: 'true', show_backfill: false
+      -%}
+      {%- elsif logo != blank -%}
         {%- liquid
           assign alt = logo.alt | default: shop.name | strip_html | escape
           assign width = logo_width_x2
@@ -576,6 +585,11 @@
       "type": "image_picker",
       "id": "logo",
       "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "logoinvert",
+      "label": "Inverted"
     },
     {
       "type":    "range",

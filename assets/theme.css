@@ -26466,6 +26466,44 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
   padding-bottom: 0;
 }
 
+.collection__nav{
+  position: static;
+}
+
+.header-group.collection, .header-group.collection .header__desktop{
+  position: absolute;
+  width: 100%;
+}
+
+.header-group.collection .theme__header{
+  border: 0;
+}
+
+.header-group.collection a span{
+  color: white;
+}
+
+.header-group.collection svg path{
+  stroke: white; 
+}
+
+.header-group.collection .header__desktop__lower{
+  border-top: 1px solid #ffffff21;
+}
+
+.header-group.collection .navlink:hover > .navtext{
+  color: white;
+}
+
+.header-group.collection .navlink--toplevel:after{
+  display: none;
+}
+
+.hero-image-collection img{
+  display: block;
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   .image-and-product .section-double__body{
     display: block;
