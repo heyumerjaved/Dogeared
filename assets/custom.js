@@ -54,7 +54,12 @@ for (var i = 0; i < sliders.length; i++) {
     type: 'slider',
     perView: 4,
     bound: true,
-    rewind: false
+    rewind: false,
+    breakpoints: {
+      768: {
+        perView: 2
+      }
+    }
   });
   
   glide.mount();

@@ -4,11 +4,11 @@
       src: url({{ 'Pherome-Regular.ttf' | asset_url }});
     }
 
-    .image-blocks {
+    .custom-collection-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(2, 1fr);
-      gap: 10px;
+      gap: 12px;
       width: 100%;
       aspect-ratio: 2/1;
       padding: 30px 50px;
@@ -69,9 +69,24 @@
       text-align: center;
       z-index: 2;
     }
+
+    @media (max-width: 768px) {
+      .custom-collection-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        padding: 0 var(--outer);
+      }
+
+      .block-image-1, .block-image-2, .block-image-3, .block-image-4 {
+        aspect-ratio: 1/0.6;
+        grid-column: 1 / span 1;
+        grid-row: auto;
+      }
+    }
+
 </style>
   
-<div class="image-blocks">
+<div class="custom-collection-grid">
       <a href=" {{ collections['Earrings'].url}} " class="block-image block-image-1">
         <div class="block-text">
           {{ section.settings.block-1 }}
