@@ -162,9 +162,9 @@
       "settings": {
         "enable_sort": true,
         "enable_filters": true,
-        "filter_layout": "inline-closed",
+        "filter_layout": "slide-out",
         "collection_linklist": "shop-all",
-        "new_collection_linklist": "",
+        "new_collection_linklist": "rebrand-collections-list-for-collection-page",
         "grid": 4,
         "grid_mobile": "2",
         "product_limit": 12,
