@@ -210,7 +210,7 @@
       <div class="drawer__underlay" data-drawer-underlay></div>
 
       <div class="product-grid-outer" data-products-grid>
-        <div class="product-grid{% unless settings.product_grid_outline %} product-grid--borderless{% endunless %}" id="CollectionLoop">
+        <div data-next-url="{{ paginate.next.url }}" class="product-grid{% unless settings.product_grid_outline %} product-grid--borderless{% endunless %}" id="CollectionLoop">
           {%- if paginate.current_page == 1 and collection.products.size > 0 -%}
             {%- for block in section.blocks -%}
               {%- case block.type -%}
@@ -341,6 +341,17 @@
               </a>
             </div>
           {%- endif -%}
+        </div>
+        <div class="loadmorebtncontainer">
+          <button id="loadMoreButton">
+            Load More
+            <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 0L8 1.93277L4.00871 6L-8.44842e-08 1.93277L0 -3.49691e-07L4.00871 4.06723L8 0Z" fill="#332F2F"/>
+            </svg>
+          </button>
+          <div class="rounded-spinner">
+            <div class="spinner-circle"></div>
+          </div>
         </div>
 
         {%- render 'pagination', paginate: paginate -%}
