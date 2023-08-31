@@ -116,6 +116,11 @@
 
     {%- if show_sort or show_filter or show_group_filter -%}
       <nav class="collection__nav {{ align_classes }}" data-collection-nav>
+      
+        {%- if show_sort -%}
+          {% render 'collection-sorting-new' %}
+        {%- endif -%}
+
         {%- if show_filter or show_group_filter -%}
           {%- liquid
             assign filter_active_count = 0
@@ -138,7 +143,6 @@
               aria-controls="filter-groups"
               data-aria-toggle
               data-group-tags-enabled>
-              {%- render 'icon-filter' -%}
 
               {%- if filter_layout == 'slide-out' -%}
                 {{ 'collections.general.filters' | t }}
@@ -160,15 +164,15 @@
                 </span>
               {%- endif -%}
 
+              <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 0L8 1.93277L4.00871 6L-8.44842e-08 1.93277L0 -3.49691e-07L4.00871 4.06723L8 0Z" fill="#332F2F"/>
+              </svg>
+
               {%- unless filter_layout == 'slide-out' -%}
                 {%- render 'icon-nav-arrow-down' -%}
               {%- endunless -%}
             </button>
           </div>
-        {%- endif -%}
-
-        {%- if show_sort -%}
-          {% render 'collection-sorting' %}
         {%- endif -%}
       </nav>
     {%- endif -%}
