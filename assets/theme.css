@@ -26499,9 +26499,51 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
   display: none;
 }
 
+.hero-image-collection{
+  position: relative;
+}
+
 .hero-image-collection img{
   display: block;
   width: 100%;
+}
+
+.collection-title-over-image{
+  position: absolute;
+  width: 100%;
+  height: 208px;
+  bottom: 0;
+  text-align: center;
+  font-family: Pherome;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  color: white;
+}
+
+.new-collection-tabs{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  border-bottom: 1px solid var(--primary-3, #F4F1E9);
+  margin-bottom: 2rem;
+}
+
+.new-collection-tabs a{
+  color: var(--dark-1, #332F2F);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  --link-hover: black;
+}
+
+.new-collection-tabs a.active::after {
+  transform: scaleX(1);
 }
 
 @media (max-width: 768px) {

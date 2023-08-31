@@ -80,6 +80,18 @@
     loading="lazy"
     width="auto"
     height="auto">
+    <div class="collection-title-over-image">
+      <span>{{ collection.title }}</span>
+    </div>
+</div>
+
+{% assign new_nav_list = section.settings.new_collection_linklist | handleize %}
+<div class="new-collection-tabs">
+  {% for link in linklists[new_nav_list].links %}
+    <a class="navlink navlink--toplevel{% if link.active %} active{% endif %}" href="{{ link.url }}">
+      <span>{{ link.title }}</span>
+    </a>
+  {% endfor %}
 </div>
 
 {%- paginate collection.products by product_limit -%}
@@ -364,10 +376,12 @@
           {
             "label": "Slide out",
             "value": "slide-out"
-          }, {
+          }, 
+          {
             "label": "Inline (closed)",
             "value": "inline-closed"
-          }, {
+          }, 
+          {
             "label": "Inline (open)",
             "value": "inline-open"
           }
@@ -378,10 +392,18 @@
         "id": "collection_linklist",
         "label": "Sidebar navigation",
         "info": "This menu won't show dropdown items."
-      }, {
+      },
+      {
+        "type": "link_list",
+        "id": "new_collection_linklist",
+        "label": "List Below Main Image",
+        "info": "Only use collection links here"
+      }, 
+      {
         "type": "header",
         "content": "Product grid"
-      }, {
+      }, 
+      {
         "type": "range",
         "id": "grid",
         "label": "Products per row on desktop",
@@ -389,7 +411,8 @@
         "max": 6,
         "step": 1,
         "default": 3
-      }, {
+      }, 
+      {
         "type": "radio",
         "id": "grid_mobile",
         "label": "Products per row on mobile",
