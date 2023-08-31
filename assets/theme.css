@@ -26546,10 +26546,15 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
   transform: scaleX(1);
 }
 
-.span2{
-  grid-column: span 2;
+.span2div{
+  grid-column: span 2; 
+}
+
+.span2div img{
   width: 100%;
   display: block;
+  height: 235px;
+  object-fit: cover;
 }
 
 .spanrow2{
@@ -26612,6 +26617,88 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
   100% { transform: rotate(360deg); }
 }
 
+.collection .product-item__image{
+  border-bottom: 0;
+}
+
+.collection .product-item{
+  border: 0;
+}
+
+.collection .product-item:before{
+  border-left: 0;
+}
+
+.collection quick-add-product{
+  display: none;
+}
+
+.collection .product-link > *{
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.collection .product-link .product-item__title, .collection .span2title {
+  font-size: 12px;
+  color: #0C0909;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.collection .product-link .variant-list {
+  color: #858282;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.collection .product-link .product-item__price, .collection .product-link .product-item__price .price{
+  color: #0C0909;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.collection .span2title{
+  margin-top: 10px;
+}
+
+.collection .image-wrapper--cover img{
+  border: 1px solid #e6e6e6;
+}
+
+.collection .product-item__info{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.collection .new-sticky-header{
+  position: static;
+  background-color: unset;
+}
+
+.collection .product-item .badge-box {
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  background: var(--primary-1, #966B52);
+  right: 0;
+  left: unset;
+  top: 20px;
+}
 
 @media (max-width: 768px) {
   .image-and-product .section-double__body{

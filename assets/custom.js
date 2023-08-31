@@ -129,3 +129,20 @@ function toggleNewsletterButton() {
     loadMoreProducts(); // Call the loadMoreProducts function when the button is clicked
   });
 })();
+
+
+// Function to update the height of .span2div img
+function updateImageHeight() {
+  const imageWrapper = document.querySelector('.collection #CollectionLoop .image-wrapper--cover img');
+  const span2divImage = document.querySelector('.collection .span2div img');
+  const imageHeight = imageWrapper.clientHeight;
+  span2divImage.style.height = imageHeight + 'px';
+
+  console.log(imageHeight);
+}
+
+// Initial call to set the height
+updateImageHeight();
+
+// Listen for the window resize event
+window.addEventListener('resize', updateImageHeight);
