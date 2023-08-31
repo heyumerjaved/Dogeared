@@ -26529,6 +26529,8 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
   justify-content: center;
   border-bottom: 1px solid var(--primary-3, #F4F1E9);
   margin-bottom: 2rem;
+  width: 100%;
+  background-color: white;
 }
 
 .new-collection-tabs a{
@@ -26740,6 +26742,12 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 100;
 }
 
 @media (max-width: 768px) {

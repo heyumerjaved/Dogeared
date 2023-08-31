@@ -43,6 +43,31 @@
     });
   });
 
+  // Get the .new-collection-tabs element
+const tabs = document.querySelector(".new-collection-tabs");
+
+// Get the initial offset from the top of the document
+const tabsOffset = tabs.offsetTop;
+
+// Function to handle the scroll event
+function handleScroll() {
+    // Get the current scroll position
+    const scrollY = window.scrollY;
+
+    // Check if the scroll position is greater than or equal to the initial offset
+    if (scrollY >= tabsOffset) {
+        // Add the "sticky" class to make it sticky
+        tabs.classList.add("sticky");
+    } else {
+        // Remove the "sticky" class to make it unsticky
+        tabs.classList.remove("sticky");
+    }
+}
+
+// Add a scroll event listener to call the handleScroll function
+window.addEventListener("scroll", handleScroll);
+
+
   // ^^ Keep your scripts inside this IIFE function call to 
   // avoid leaking your variables into the global scope.
 })();
