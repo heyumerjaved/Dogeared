@@ -26546,6 +26546,19 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
   transform: scaleX(1);
 }
 
+.span2{
+  grid-column: span 2;
+  width: 100%;
+  display: block;
+}
+
+.spanrow2{
+  grid-row: span 2;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   .image-and-product .section-double__body{
     display: block;

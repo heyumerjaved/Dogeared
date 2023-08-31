@@ -317,6 +317,12 @@
               {%- assign grid_int = section.settings.grid | times: 1 -%}
               {%- assign animation_delay = forloop.index0 | modulo: grid_int | times: 1 -%}
               {%- render 'product-grid-item', product: product, animation_delay: animation_delay, index: forloop.index, sizes: image_sizes -%}
+              {% if forloop.index == 4 %}
+                <img class="span2" src="{{section.settings.horizontal_image | img_url: 'original'}}" alt="horizontal image">  
+              {% endif %}
+              {% if forloop.index == 5 %}
+                <img class="spanrow2" src="{{section.settings.vertical_image | img_url: 'original'}}" alt="vertical image">  
+              {% endif %}
             {%- endfor -%}
           {%- else -%}
             <div class="no-results">
@@ -455,6 +461,16 @@
         "unit": "px",
         "label": "Padding bottom",
         "default": 0
+      },
+      {
+        "type": "image_picker",
+        "id": "horizontal_image",
+        "label": "Horizontal Featured Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "vertical_image",
+        "label": "Vertical Featured Image"
       }
     ],
     "blocks": [
