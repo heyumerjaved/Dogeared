@@ -26748,6 +26748,7 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
   position: fixed;
   top: 0;
   z-index: 100;
+  margin-bottom: 0;
 }
 
 @media (max-width: 768px) {

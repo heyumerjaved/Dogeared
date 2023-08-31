@@ -43,18 +43,20 @@
     });
   });
 
-  // Get the .new-collection-tabs element
+// Get the .new-collection-tabs element
 const tabs = document.querySelector(".new-collection-tabs");
 
-// Get the initial offset from the top of the document
-const tabsOffset = tabs.offsetTop;
+// Function to update the tabsOffset value
+function updateTabsOffset() {
+    tabsOffset = tabs.offsetTop;
+}
 
 // Function to handle the scroll event
 function handleScroll() {
     // Get the current scroll position
     const scrollY = window.scrollY;
 
-    // Check if the scroll position is greater than or equal to the initial offset
+    // Check if the scroll position is greater than or equal to the updated offset
     if (scrollY >= tabsOffset) {
         // Add the "sticky" class to make it sticky
         tabs.classList.add("sticky");
@@ -66,6 +68,13 @@ function handleScroll() {
 
 // Add a scroll event listener to call the handleScroll function
 window.addEventListener("scroll", handleScroll);
+
+// Add a window resize event listener to update the tabsOffset when the window is resized
+window.addEventListener("resize", updateTabsOffset);
+
+// Call the updateTabsOffset function initially to set the correct initial offset
+updateTabsOffset();
+
 
 
   // ^^ Keep your scripts inside this IIFE function call to 
