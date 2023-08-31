@@ -69,6 +69,7 @@
         "icon_as_circle": false,
         "cart_icon_family": "bag-new",
         "logo": "shopify:\/\/shop_images\/header-logo.svg",
+        "logoinvert": "shopify:\/\/shop_images\/Group_2_1.png",
         "logo_max_limit": 30,
         "main_menu_linklist": "rebrand-desktop-main-menu",
         "enable_search": true,

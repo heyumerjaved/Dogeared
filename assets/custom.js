@@ -105,7 +105,7 @@ function toggleNewsletterButton() {
 
 
         // Remove elements with the class ".span2" and ".spanrow2"
-        collectionLoopHtml.find('.span2, .spanrow2').remove();
+        collectionLoopHtml.find('.span2div, .spanrow2').remove();
         var new_url = collectionLoopHtml.data("next-url");
 
         if (new_url){
