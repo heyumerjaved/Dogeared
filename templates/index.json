@@ -52,7 +52,9 @@
     "f852ea23-6d58-416e-9852-759c06eff78e": {
       "type": "product-slider",
       "settings": {
-        "collection": "best-sellers"
+        "slider_title": "NEW IN",
+        "collection": "all-is-well",
+        "slider_button_text": "ALL NEW IN"
       }
     },
     "831d82e0-5a9e-482a-a957-03010aa40aea": {
@@ -73,7 +75,9 @@
     "e0656f20-0f8a-4f1f-8d79-2570fdffdc98": {
       "type": "product-slider",
       "settings": {
-        "collection": "best-sellers"
+        "slider_title": "",
+        "collection": "best-sellers",
+        "slider_button_text": ""
       }
     },
     "a3a06106-8192-4e50-bf26-030ed8dee5ef": {
@@ -183,7 +187,7 @@
         "bg_color": "",
         "color": "#ffffff",
         "padding_top": 100,
-        "padding_bottom": 32
+        "padding_bottom": 80
       }
     },
     "e141d344-13f9-4f49-b67f-18dc31ace168": {
@@ -191,8 +195,7 @@
       "blocks": {
         "060be63e-fe9e-4745-bba4-c5f2bbecee60": {
           "type": "quote",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--16938693689558__e141d344-13f9-4f49-b67f-18dc31ace168-text-1": {
           "type": "text",
@@ -225,8 +228,8 @@
         "text_alignment": "text-left",
         "bg_color": "",
         "color": "#000000",
-        "padding_top": 200,
-        "padding_bottom": 200
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "c6708314-7b2e-4734-9a72-4a10d1d86a1c": {
@@ -244,7 +247,7 @@
         "show_comments": false,
         "bg_color": "",
         "color": "",
-        "padding_top": 32,
+        "padding_top": 80,
         "padding_bottom": 100
       }
     },

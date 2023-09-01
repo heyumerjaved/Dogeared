@@ -1,4 +1,4 @@
-<!-- /sections/section-collections-list.liquid -->
+<!-- /sections/section-collections-list-new.liquid -->
 
 {%- liquid
     assign title = section.settings.title
@@ -93,7 +93,7 @@
       <div class="grid__items-holder">
         <div class="product-grid-outer collection-list-outer">
           <div
-            class="collection-list product-grid {{ mobile_slider }} {{ layout_grid }}{% unless settings.product_grid_outline %} product-grid--borderless{% endunless %}"
+            class="collection-list product-grid {{ layout_grid }}{% unless settings.product_grid_outline %} product-grid--borderless{% endunless %}"
             {{ layout_grid_attributes }}
             {{ block_scroll_attr }}
             data-options='{"watchCSS": true, "cellAlign": "left", "pageDots": false, "prevNextButtons": true, "adaptiveHeight": false, "wrapAround": false, "groupCells": true}'
