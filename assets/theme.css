@@ -26636,7 +26636,6 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
 .span2div img{
   width: 100%;
   display: block;
-  min-height: 235px;
   object-fit: cover;
 }
 
@@ -26825,8 +26824,22 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
   gap: 10px;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  margin-bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
 .collection .popout--sort .popout-list{
   width: 100%;
+}
+
+.spacer-for-collection-tabs{
+  height: calc(50px + 2rem);
+  display: none;
 }
 
 @media (max-width: 768px) {
