@@ -26882,6 +26882,48 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
   display: none;
 }
 
+.productcrumbs span, .productcrumbs a{
+  color: var(--Dark-1, #332F2F);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.product__images{
+  position: relative;
+}
+
+.product__images .wishlist-btn svg{
+  display: block;
+}
+
+.evenimages, .oddimages{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.evenimages .product__slide:nth-last-child(-n+2) {
+  grid-column: 1 / -1;
+}
+
+.oddimages .product__slide:last-child{
+  grid-column: 1 / -1;
+}
+
+
+.product__images .wishlist-btn{
+  position: absolute;
+  display: block;
+  padding: 10px;
+  border: 1px solid #d0d0d0;
+  border-radius: 500px;
+  right: 10px;
+  top: 10px;
+}
+
 @media (max-width: 768px) {
   .collection .collection__nav{
     justify-content: center;

@@ -1,5 +1,33 @@
 <!-- /sections/product.liquid -->
 
+{% assign breadcrumbs_modifier = breadcrumbs_modifier | default: '' %}
+
+{% capture divider_html %}
+  <span class="breadcrumbs__arrow">&nbsp;</span>
+{% endcapture %}
+
+<nav class="breadcrumbs {{ breadcrumbs_modifier }} productcrumbs">
+  <a href="{{ routes.root_url }}">{{ 'general.breadcrumbs.home' | t }}</a>
+  
+  {{ divider_html }}
+
+  {% if template contains 'product' %}
+    {%- if collection -%}
+      {{ collection.title | link_to: collection.url }}
+
+      {{ divider_html }}
+    {%- endif -%}
+  {%- elsif template.name == 'article' -%}
+    {{ blog.title | link_to: blog.url }}
+    
+    {{ divider_html }}
+  {% endif %}
+
+  <span>{{- product.title -}}</span>
+</nav>
+
+
+
 {%- liquid
   assign current_variant = product.selected_or_first_available_variant
   assign show_cart_bar = false
@@ -84,7 +112,8 @@
     <div class="product__page">
       <div class="product__images{% if section.settings.mobile_image_style == 'slider' %} product__images--no-thumbs{% else %} product__images--has-thumbs{% endif %}">
         {%- if product.media.size > 0 -%}
-          <div class="product__slides product-single__photos"
+          {% assign evenodd = product.media.size | modulo: 2 %}
+          <div class="product__slides product-single__photos {% if evenodd == 0 %}evenimages{% else %}oddimages{% endif %}"
             style="--featured-media-aspect-ratio: {{ featured_media_aspect_ratio | round: 2 }};"
             data-product-slideshow
             data-product-single-media-group
@@ -116,6 +145,13 @@
             <div class="product__photo product__photo--blank product__slide"></div>
           </div>
         {%- endif -%}
+
+        <a href="#" class="wishlist-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+            <path d="M11.9996 20.5541C-5.55846 10.9762 7.14008 -0.931578 11.9996 7.08806C16.8599 -0.931578 29.5593 10.9762 11.9996 20.5541Z" fill="black"/>
+          </svg>
+        </a>
+
       </div>
 
       <div class="product__content">
