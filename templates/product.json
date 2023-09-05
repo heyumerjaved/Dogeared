@@ -2,7 +2,6 @@
   "sections": {
     "b158db5a-6d1d-493f-90b5-8b1ef6035ae8": {
       "type": "section-rich-text",
-      "disabled": true,
       "blocks": {
         "template--16877255917782__b158db5a-6d1d-493f-90b5-8b1ef6035ae8-16804704949b640ea0-0": {
           "type": "subheading",
@@ -46,6 +45,7 @@
         "template--16877255917782__b158db5a-6d1d-493f-90b5-8b1ef6035ae8-16804704949b640ea0-2",
         "template--16877255917782__b158db5a-6d1d-493f-90b5-8b1ef6035ae8-16804704949b640ea0-3"
       ],
+      "disabled": true,
       "settings": {
         "width": "wrapper",
         "align_text": "text-left",
@@ -100,8 +100,9 @@
           "type": "features",
           "settings": {
             "icon_name": "icon-truck",
+            "icon_alt": "shopify:\/\/shop_images\/truck.svg",
             "icon_size": 20,
-            "title": "Free domestic shipping on all orders over $75",
+            "title": "Free shipping on all orders",
             "text": "",
             "bg_color": "#fafafa",
             "color": "#212121",
@@ -277,13 +278,13 @@
       ],
       "custom_css": [],
       "settings": {
-        "product_sticky_enable": true,
-        "image_layout": "stacked",
+        "product_sticky_enable": false,
+        "image_layout": "grid-2",
         "image_size": "normal",
         "show_cart_bar": true,
         "enable_zoom": true,
         "enable_video_looping": false,
-        "mobile_image_style": "thumbs",
+        "mobile_image_style": "slider",
         "padding_top": 40,
         "padding_bottom": 30
       }
