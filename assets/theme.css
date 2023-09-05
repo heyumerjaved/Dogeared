@@ -26913,6 +26913,36 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
   grid-column: 1 / -1;
 }
 
+.product__page{
+  grid-template-columns: 60% 40%;
+  gap: 0;
+}
+
+.product__content{
+  padding-left: 40px;
+}
+
+.template-product-page .product__title{
+  color: var(--Dark-1, #332F2F);
+  font-family: Pherome;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  text-transform: capitalize;
+  padding-top: 1rem;
+}
+
+.template-product-page .product__price{
+  color: var(--Dark-1, #332F2F);
+  font-family: Pherome;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
 
 .product__images .wishlist-btn{
   position: absolute;
