@@ -121,6 +121,7 @@
           "type": "features",
           "settings": {
             "icon_name": "icon-star",
+            "icon_alt": "shopify:\/\/shop_images\/star.svg",
             "icon_size": 20,
             "title": "No base metals",
             "text": "",
@@ -141,6 +142,7 @@
           "type": "features",
           "settings": {
             "icon_name": "icon-heart",
+            "icon_alt": "shopify:\/\/shop_images\/shield-tick.svg",
             "icon_size": 20,
             "title": "30 day return policy",
             "text": "",
@@ -204,11 +206,11 @@
             "style": "accordions",
             "title_1": "Description",
             "raw_content_1": "",
-            "title_2": "",
+            "title_2": "Materials & Care",
             "raw_content_2": "",
-            "title_3": "",
+            "title_3": "Shipping",
             "raw_content_3": "",
-            "title_4": "",
+            "title_4": "Warranty",
             "raw_content_4": "",
             "title_5": "",
             "raw_content_5": "",
@@ -226,6 +228,7 @@
         },
         "9ca52f47-91a3-4d77-af8f-de70ad4c121a": {
           "type": "upsell",
+          "disabled": true,
           "settings": {
             "bg_color": "",
             "padding_bottom": 16
@@ -233,6 +236,7 @@
         },
         "8720ca29-a136-4ef7-bda9-ac7dc3f5d597": {
           "type": "divider",
+          "disabled": true,
           "settings": {
             "show_line": true,
             "padding_top": 0,
@@ -249,6 +253,7 @@
         },
         "1a1c3eda-3a18-4828-9a72-843532e69d8d": {
           "type": "sharing",
+          "disabled": true,
           "settings": {
             "padding_bottom": 16
           }
@@ -289,6 +294,38 @@
         "padding_bottom": 30
       }
     },
+    "related": {
+      "type": "related",
+      "blocks": {
+        "878de3c9-dede-4f85-a9c5-6c856f820a0b": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "YOU MAY ALSO LIKE",
+            "limit": 6
+          }
+        },
+        "ed2fda14-ad65-42ab-b72f-c293e3e19883": {
+          "type": "recent",
+          "disabled": true,
+          "settings": {
+            "product_recently_heading": "Recently viewed",
+            "product_recently_limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "878de3c9-dede-4f85-a9c5-6c856f820a0b",
+        "ed2fda14-ad65-42ab-b72f-c293e3e19883"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "imgtxt": {
       "type": "section-custom-content",
       "blocks": {
@@ -318,6 +355,7 @@
       "block_order": [
         "imgtxt-0"
       ],
+      "disabled": true,
       "settings": {
         "height": "screen-height-one-half",
         "mobile_height": "screen-height-one-half--mobile",
@@ -365,6 +403,7 @@
         "faq-3",
         "faq-4"
       ],
+      "disabled": true,
       "settings": {
         "title": "FAQ",
         "bg_color": "",
@@ -447,6 +486,7 @@
         "shipping-2",
         "9a73729b-560b-41a2-8a01-069d7b4f6a0e"
       ],
+      "disabled": true,
       "settings": {
         "title": "Shipping",
         "bg_color": "",
@@ -503,6 +543,7 @@
         "8a477217-fd39-4f0e-a85b-69e145fc1669",
         "e40d7ebe-a3ba-4dcf-bb92-b7b671bac03a"
       ],
+      "disabled": true,
       "settings": {
         "title": "Return Policy",
         "bg_color": "",
@@ -559,6 +600,7 @@
         "about-1",
         "about-0"
       ],
+      "disabled": true,
       "settings": {
         "title": "About us",
         "bg_color": "",
@@ -579,36 +621,46 @@
         "padding_bottom": 30
       }
     },
-    "related": {
-      "type": "related",
+    "09874ed2-f345-4732-9ca9-ba7a5f3165e7": {
+      "type": "section-double-quote",
       "blocks": {
-        "878de3c9-dede-4f85-a9c5-6c856f820a0b": {
-          "type": "related",
+        "3a7a488d-bcb9-4ab7-97f7-e79d98c1b956": {
+          "type": "quote",
+          "settings": {}
+        },
+        "template--16938694148310__09874ed2-f345-4732-9ca9-ba7a5f3165e7-text-1": {
+          "type": "text",
           "settings": {
-            "product_recommendations_heading": "Related products",
-            "limit": 4
+            "text": "<p>The perfect casual, wear everyday type of necklace! It's great quality, I wear mine all the time.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
           }
         },
-        "ed2fda14-ad65-42ab-b72f-c293e3e19883": {
-          "type": "recent",
-          "disabled": true,
+        "template--16938694148310__09874ed2-f345-4732-9ca9-ba7a5f3165e7-heading-1": {
+          "type": "heading",
           "settings": {
-            "product_recently_heading": "Recently viewed",
-            "product_recently_limit": 4
+            "title": "Martinez",
+            "text_size": 8
           }
         }
       },
       "block_order": [
-        "878de3c9-dede-4f85-a9c5-6c856f820a0b",
-        "ed2fda14-ad65-42ab-b72f-c293e3e19883"
+        "3a7a488d-bcb9-4ab7-97f7-e79d98c1b956",
+        "template--16938694148310__09874ed2-f345-4732-9ca9-ba7a5f3165e7-text-1",
+        "template--16938694148310__09874ed2-f345-4732-9ca9-ba7a5f3165e7-heading-1"
       ],
       "settings": {
-        "enable_tabs": true,
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper",
+        "image_1": "shopify:\/\/shop_images\/Screenshot_2023-05-29_at_9.25_1.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
         "bg_color": "",
-        "color": "",
-        "border_color": "",
-        "padding_top": 30,
-        "padding_bottom": 30
+        "color": "#000000",
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "5e734e1c-bebb-46bf-8d7f-e2c69c0ab5a1": {
@@ -616,7 +668,7 @@
       "settings": {
         "product_recently_heading": "Recently viewed",
         "product_recently_limit": 6,
-        "product_recently_minimum": 4,
+        "product_recently_minimum": 1,
         "bg_color": "",
         "color": "",
         "padding_top": 30,
@@ -636,6 +688,7 @@
       "block_order": [
         "953f89a5-7002-47fd-bf7d-148de362732d"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
@@ -692,6 +745,7 @@
         "custom-0",
         "custom-1"
       ],
+      "disabled": true,
       "settings": {
         "height": "screen-height-one-half",
         "mobile_height": "screen-height-one-half--mobile",
@@ -705,13 +759,14 @@
   "order": [
     "b158db5a-6d1d-493f-90b5-8b1ef6035ae8",
     "main",
+    "related",
     "imgtxt",
     "faq",
     "shipping",
     "52d5c75e-0b11-4ab8-92fd-e949215c9271",
     "about",
     "reviews",
-    "related",
+    "09874ed2-f345-4732-9ca9-ba7a5f3165e7",
     "5e734e1c-bebb-46bf-8d7f-e2c69c0ab5a1",
     "166828389352029176",
     "custom"
