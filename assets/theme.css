@@ -27180,3 +27180,30 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
 .template-product-page .product__block--buttons{
   margin-bottom: 3rem;
 }
+
+.template-product-page .select-popout__toggle, .template-product-page .select-popout__list{
+  background: #FDFCFB;
+  border: 0;
+  color: var(--Dark-1, #332F2F);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  border-bottom: 1px solid #F4F1E9;
+}
+
+.template-product-page .select-popout__list li a{
+  color: var(--Dark-1, #332F2F);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.template-product-page .bottomLine{
+  margin-bottom: 1rem;
+}
