@@ -27005,6 +27005,32 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
   border: 0;
 }
 
+.product__features .product__feature{
+  background: none;
+  padding-left: 0;
+  color: var(--Dark-1, #332F2F);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+  padding: 0;
+}
+
+.product__features .product__icon__container{
+  color: var(--Dark-1, #332F2F);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+  gap: 10px;
+}
+
 .template-product-page .swym-button-bar{
   display: none;
 }
