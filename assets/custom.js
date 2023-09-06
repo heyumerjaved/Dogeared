@@ -94,21 +94,25 @@ if (tabs) {
 // GLIDE SLIDERS
 var sliders = document.querySelectorAll('.custom-product-slider .glide');
 
-for (var i = 0; i < sliders.length; i++) {
-  var glide = new Glide(sliders[i], {
-    type: 'slider',
-    perView: 4,
-    bound: true,
-    rewind: false,
-    breakpoints: {
-      768: {
-        perView: 2
+if (sliders.length > 0) {
+  // Sliders exist, so you can initialize them
+  for (var i = 0; i < sliders.length; i++) {
+    var glide = new Glide(sliders[i], {
+      type: 'slider',
+      perView: 4,
+      bound: true,
+      rewind: false,
+      breakpoints: {
+        768: {
+          perView: 2
+        }
       }
-    }
-  });
-  
-  glide.mount();
+    });
+
+    glide.mount();
+  }
 }
+
 
 
 // TOGGLE NEWSLETTER BUTTON
@@ -186,10 +190,12 @@ function toggleNewsletterButton() {
 function updateImageHeight() {
   const imageWrapper = document.querySelector('#CollectionLoop .image-wrapper--cover img');
   const span2divImage = document.querySelector('#CollectionLoop .span2div img');
-  const imageHeight = imageWrapper.clientHeight;
-  span2divImage.style.height = imageHeight + 'px';
-
-  console.log(imageHeight);
+  
+  // Check if imageWrapper and span2divImage exist
+  if (imageWrapper && span2divImage) {
+    const imageHeight = imageWrapper.clientHeight;
+    span2divImage.style.height = imageHeight + 'px';
+  } 
 }
 
 // Initial call to set the height
@@ -197,3 +203,4 @@ updateImageHeight();
 
 // Listen for the window resize event
 window.addEventListener('resize', updateImageHeight);
+
