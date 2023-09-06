@@ -26988,6 +26988,23 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
   top: 10px;
 }
 
+.product__submit__item:first-child {
+  background: var(--Dark-1, #332F2F);
+}
+
+.product__submit__item:first-child button{
+  color: white;
+  color: var(--White, #FFF);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  border: 0;
+}
+
 .template-product-page .swym-button-bar{
   display: none;
 }
