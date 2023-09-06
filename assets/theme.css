@@ -26944,7 +26944,41 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
   text-transform: uppercase;
 }
 
-.product__images .wishlist-btn{
+.template-product-page .yotpo-bottomline{
+  border-radius: 70px;
+  border: 1px solid #F4F1E9;
+  padding: 10px 25px;
+  gap: 0;
+}
+
+.template-product-page .yotpo-bottomline .yotpo-stars{
+  display: flex;
+  gap: 8px;
+}
+
+.template-product-page .yotpo-bottomline .yotpo-stars + a{
+  padding-left: 20px;
+  position: relative;
+  color: var(--Dark-1, #332F2F) !important;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.template-product-page .yotpo .yotpo-icon-default-empty-star:before, .template-product-page .yotpo .yotpo-icon-empty-star:before{
+  content: "\e60e";
+  fill: var(--Primary-1, #966B52);
+  opacity: 0.1;
+}
+
+.template-product-page .product__block--lines{
+  border: 0;
+}
+
+.template-product-page .product__images .wishlist-btn{
   position: absolute;
   display: block;
   padding: 10px;
@@ -26952,6 +26986,10 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
   border-radius: 500px;
   right: 10px;
   top: 10px;
+}
+
+.swym-button-bar{
+  display: none;
 }
 
 @media (max-width: 768px) {
