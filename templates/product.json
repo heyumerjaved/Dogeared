@@ -301,7 +301,7 @@
           "type": "related",
           "settings": {
             "product_recommendations_heading": "YOU MAY ALSO LIKE",
-            "limit": 6
+            "limit": 4
           }
         },
         "ed2fda14-ad65-42ab-b72f-c293e3e19883": {

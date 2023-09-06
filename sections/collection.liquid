@@ -325,12 +325,21 @@
               {%- render 'product-grid-item-new', product: product, animation_delay: animation_delay, index: forloop.index, sizes: image_sizes -%}
               {% if forloop.index == 4 %}
                 <div class="span2div">
-                  <img class="span2" src="{{section.settings.horizontal_image | img_url: 'original'}}" alt="horizontal image">  
+                  <div class="span2-image-container">
+                    <img class="span2" src="{{section.settings.horizontal_image | img_url: 'original'}}" alt="horizontal image">
+                    <span class="span2-title-over-image">New Arrivals</span>
+                  </div> 
                   <p class="span2title">{{ section.settings.text_below_himage }}</p>
                 </div>
               {% endif %}
               {% if forloop.index == 5 %}
-                <img class="spanrow2" src="{{section.settings.vertical_image | img_url: 'original'}}" alt="vertical image">  
+                <div class="spanrow2div">
+                  <div class="spanrow2-image-container">
+                    <img class="spanrow2" src="{{section.settings.vertical_image | img_url: 'original'}}" alt="vertical image">
+                    <span class="spanrow2-title-over-image">Summer</span>
+                  </div>
+                  <p class="span2title">{{ section.settings.text_below_vimage }}</p>
+                </div>
               {% endif %}
             {%- endfor -%}
           {%- else -%}
@@ -497,6 +506,12 @@
         "type": "image_picker",
         "id": "vertical_image",
         "label": "Vertical Featured Image"
+      },
+      {
+        "type": "text",
+        "id": "text_below_vimage",
+        "label": "Heading",
+        "default": "SUMMER COLLECTIONS"
       }
     ],
     "blocks": [
