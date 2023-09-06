@@ -26988,11 +26988,11 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
   top: 10px;
 }
 
-.product__submit__item:first-child {
+.template-product-page .product__submit__item:first-child {
   background: var(--Dark-1, #332F2F);
 }
 
-.product__submit__item:first-child button{
+.template-product-page .product__submit__item:first-child button{
   color: white;
   color: var(--White, #FFF);
   text-align: center;
@@ -27005,7 +27005,7 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
   border: 0;
 }
 
-.product__features .product__feature{
+.template-product-page .product__features .product__feature{
   background: none;
   padding-left: 0;
   color: var(--Dark-1, #332F2F);
@@ -27019,7 +27019,7 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
   padding: 0;
 }
 
-.product__features .product__icon__container{
+.template-product-page .product__features .product__icon__container{
   color: var(--Dark-1, #332F2F);
   font-family: Poppins;
   font-size: 12px;
@@ -27031,8 +27031,52 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
   gap: 10px;
 }
 
+.template-product-page .product-accordion .accordion{
+  border-top: 1px solid var(--border);
+  margin-top: 2rem;
+}
+
+.template-product-page .accordion-toggle{
+  color: var(--Dark-1, #332F2F);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.accordion-content__inner p, .accordion-content__inner ul li{
+  color: var(--Dark-1, #332F2F);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.accordion-content__inner ul{
+  margin-left: 0;
+}
+
+.accordion-content__actions .caps--link{
+  color: var(--Dark-1, #332F2F);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration-line: underline;
+}
+
 .template-product-page .swym-button-bar{
   display: none;
+}
+
+.accordion-content{
+  padding-bottom: 16px;
 }
 
 @media (max-width: 768px) {
