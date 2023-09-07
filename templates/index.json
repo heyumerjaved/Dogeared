@@ -50,7 +50,7 @@
       }
     },
     "f852ea23-6d58-416e-9852-759c06eff78e": {
-      "type": "product-slider",
+      "type": "custom-product-slider",
       "settings": {
         "slider_title": "NEW IN",
         "collection": "all-is-well",
@@ -73,7 +73,7 @@
       }
     },
     "e0656f20-0f8a-4f1f-8d79-2570fdffdc98": {
-      "type": "product-slider",
+      "type": "custom-product-slider",
       "settings": {
         "slider_title": "",
         "collection": "best-sellers",

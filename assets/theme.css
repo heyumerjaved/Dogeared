@@ -26088,6 +26088,11 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
   margin-bottom: 1rem;
 }
 
+.custom-product-slider .product-image img{
+  display: block;
+  max-width: 100%;
+}
+
 .custom-product-slider .product-title{
     font-size: 12px;
     color: #0C0909;
