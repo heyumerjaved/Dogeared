@@ -399,6 +399,15 @@
 
         <p class="product-item__title">{{ product.title | strip_html | escape }}</p>
 
+        {% if product.variants.size > 0 %}
+        {% capture variant_titles %}
+          {% for variant in product.variants %}
+            {{ variant.title }},
+          {% endfor %}
+        {% endcapture %}
+          <span class="variant-list">{{ variant_titles | remove_last: ','}}</span>
+        {% endif %}
+
         <div class="product-item__price__holder{% if has_siblings %} has-siblings{% endif %}">
           {%- if has_siblings or product_item_cutline != blank -%}
             <span class="product-item__cutline" data-product-cutline>{{ product_item_cutline }}</span>

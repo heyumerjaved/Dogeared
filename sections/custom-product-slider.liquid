@@ -1,8 +1,3 @@
-<head>
-    {{ 'glide.theme.min.css' | asset_url | stylesheet_tag }}
-    {{ 'glide.core.min.css' | asset_url | stylesheet_tag }}
-</head>
-
 <div class="product-grid-outer">
   {% if section.settings.slider_title and section.settings.slider_title != "" %}
     <h2>{{ section.settings.slider_title | downcase }}</h2>
@@ -89,7 +84,7 @@
   </div>
 </div>
         
-<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+
 
 {% schema %}
   {

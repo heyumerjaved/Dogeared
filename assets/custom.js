@@ -113,6 +113,28 @@ if (sliders.length > 0) {
   }
 }
 
+// GLIDE SLIDERS
+var instasliders = document.querySelectorAll('.instagram-feed .glide');
+
+if (instasliders.length > 0) {
+  // Sliders exist, so you can initialize them
+  for (var i = 0; i < instasliders.length; i++) {
+    var instaglide = new Glide(instasliders[i], {
+      type: 'slider',
+      perView: 5,
+      bound: true,
+      rewind: false,
+      breakpoints: {
+        768: {
+          perView: 2
+        }
+      }
+    });
+
+    instaglide.mount();
+  }
+}
+
 
 
 // TOGGLE NEWSLETTER BUTTON

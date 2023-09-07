@@ -27237,3 +27237,145 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
   gap: 12px;
   grid-template-columns: var(--grid);
 }
+
+.product-item .product-item__title {
+  font-size: 12px;
+  color: #0c0909;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: .5rem;
+  display: block;
+}
+
+.product-item .variant-list {
+  color: #858282;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: .5rem;
+  display: block;
+}
+
+.product-item .product-item__price .price{
+  color: #0c0909; 
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.quick-add__button-mobile{
+  display: none;
+}
+
+.product-item .product-item__image{
+  border-bottom: 0;
+}
+
+.product-item, .product-item:before{
+  border: 0;
+}
+
+.product-item .product-item__info{
+  padding-left: 0;
+}
+
+.template-product ul.tabs--center>li{
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.instagram-feed{
+  padding: 0 50px;
+}
+
+.instagram-feed h6{
+  color: #332F2F;
+  font-family: Pherome;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.instagram-feed .richtext{
+  color: var(--Dark-1, #332F2F);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 2rem;
+}
+
+.instagram-feed .richtext a{
+  color: var(--Primary-1, #966B52);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.instagram-feed .instagramslide{
+  position: relative;
+}
+
+.instagram-feed .instagramslide img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.instagram-feed .instagramslide .instagram-icon{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram-feed .instagramslide .instagram-handle{
+  position: absolute;
+  bottom: 0;
+  color: var(--White, #FFF);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px;
+}
+
+.instagram-feed .glide__arrow--right{
+  right: 0;
+}
+
+.instagram-feed .glide__arrow--left{
+  left: 0;
+}
+
+.instagram-feed .glide__arrow{
+  border: 1px solid white;
+  border-radius: 0;
+}
+
+
+.instagram-feed .glide__arrow svg{
+  scale: 0.7;
+  fill: white;
+}
+
+.instagram-feed{
+  margin-bottom: 6rem;
+}

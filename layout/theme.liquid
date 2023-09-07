@@ -264,6 +264,9 @@
 
 
     {% render 'gsf-conversion-pixels' %}
+
+    {{ 'glide.theme.min.css' | asset_url | stylesheet_tag }}
+    {{ 'glide.core.min.css' | asset_url | stylesheet_tag }}
   </head>
 
   <body id="{{ page_title | handle }}"
@@ -402,5 +405,6 @@
         }
       });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
   </body>
 </html>
