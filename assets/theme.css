@@ -27379,3 +27379,20 @@ body .header__desktop__bar__r .header__desktop__button-no-rpadding > a.navlink--
 .instagram-feed{
   margin-bottom: 6rem;
 }
+
+.multicolumn-new .icon__animated--image{
+  width: 24px;
+  margin-bottom: 0.7rem;
+}
+
+.multicolumn-new .column__content p{
+  max-width: 122px;
+  color: var(--White, #FFF);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: auto;
+}
