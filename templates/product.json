@@ -380,6 +380,148 @@
         "padding_top": 30,
         "padding_bottom": 30
       }
+    },
+    "6852eb5e-c9fd-4404-8208-617823c177be": {
+      "type": "section-instagram",
+      "blocks": {
+        "5a5edbfa-402b-4206-bed1-bf45777e4b78": {
+          "type": "slide",
+          "settings": {
+            "instahandle": "dogeared",
+            "image": "shopify:\/\/shop_images\/Figure_new_images_for_categories_png.png"
+          }
+        },
+        "a1be1e8b-8096-4e72-999f-9cd43068fbaf": {
+          "type": "slide",
+          "settings": {
+            "instahandle": "dogeared",
+            "image": "shopify:\/\/shop_images\/Figure_DC2BAD77-0219-405C-92C3-DB13D6E53707_jpg.png"
+          }
+        },
+        "3bc4fad6-f2fb-437b-9973-6a91c8dc7784": {
+          "type": "slide",
+          "settings": {
+            "instahandle": "dogeared",
+            "image": "shopify:\/\/shop_images\/Figure_new_images_for_categories_png.png"
+          }
+        },
+        "090483e0-6c91-4216-aa92-e6c3947193ba": {
+          "type": "slide",
+          "settings": {
+            "instahandle": "dogeared",
+            "image": "shopify:\/\/shop_images\/Figure_DC2BAD77-0219-405C-92C3-DB13D6E53707_jpg.png"
+          }
+        },
+        "2ab0fb60-a5fe-43f7-95f5-d9098abd82ee": {
+          "type": "slide",
+          "settings": {
+            "instahandle": "dogeared",
+            "image": "shopify:\/\/shop_images\/Figure_new_images_for_categories_png.png"
+          }
+        },
+        "72688fe5-aa6b-4d46-ac57-4f83bac8d4ab": {
+          "type": "slide",
+          "settings": {
+            "instahandle": "dogeared",
+            "image": "shopify:\/\/shop_images\/Figure_DC2BAD77-0219-405C-92C3-DB13D6E53707_jpg.png"
+          }
+        }
+      },
+      "block_order": [
+        "5a5edbfa-402b-4206-bed1-bf45777e4b78",
+        "a1be1e8b-8096-4e72-999f-9cd43068fbaf",
+        "3bc4fad6-f2fb-437b-9973-6a91c8dc7784",
+        "090483e0-6c91-4216-aa92-e6c3947193ba",
+        "2ab0fb60-a5fe-43f7-95f5-d9098abd82ee",
+        "72688fe5-aa6b-4d46-ac57-4f83bac8d4ab"
+      ],
+      "settings": {
+        "heading": "Seen on you",
+        "rich_text": "<p>Join the family on instagram <a href=\"\/policies\/terms-of-service\" target=\"_blank\" title=\"Terms of Service\">@dogeared<\/a> and share the love!<\/p>"
+      }
+    },
+    "ede0c46d-adf3-473e-91a4-95c7cc7e968b": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "template--16938694148310__ede0c46d-adf3-473e-91a4-95c7cc7e968b-icon-1": {
+          "type": "icon",
+          "settings": {
+            "column_width": 25,
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/truck_6632e47b-a71d-4136-9131-438bc1f2cd6e.svg",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Free Shipping On Orders Over $75<\/p>",
+            "text_size": 2
+          }
+        },
+        "f6574f20-98bf-41a7-bff1-602aa7e45fba": {
+          "type": "icon",
+          "settings": {
+            "column_width": 25,
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/3d-rotate.svg",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Free Shipping On Orders Over $75<\/p>",
+            "text_size": 2
+          }
+        },
+        "46f2e03b-e582-4c38-98ca-a79a1d0e91d1": {
+          "type": "icon",
+          "settings": {
+            "column_width": 25,
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/empty-wallet-time.svg",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Free Shipping On Orders Over $75<\/p>",
+            "text_size": 2
+          }
+        },
+        "24bafb41-231a-41c6-bee1-330a08724ff8": {
+          "type": "icon",
+          "settings": {
+            "column_width": 25,
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/shield-tick_370019c0-fa6c-4c11-825a-283642628de5.svg",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Free Shipping On Orders Over $75<\/p>",
+            "text_size": 2
+          }
+        }
+      },
+      "block_order": [
+        "template--16938694148310__ede0c46d-adf3-473e-91a4-95c7cc7e968b-icon-1",
+        "f6574f20-98bf-41a7-bff1-602aa7e45fba",
+        "46f2e03b-e582-4c38-98ca-a79a1d0e91d1",
+        "24bafb41-231a-41c6-bee1-330a08724ff8"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "bg_color": "#9e684e",
+        "color": "#ffffff",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "layout_mobile": "grid"
+      }
     }
   },
   "order": [
@@ -388,6 +530,8 @@
     "related",
     "reviews",
     "09874ed2-f345-4732-9ca9-ba7a5f3165e7",
-    "5e734e1c-bebb-46bf-8d7f-e2c69c0ab5a1"
+    "5e734e1c-bebb-46bf-8d7f-e2c69c0ab5a1",
+    "6852eb5e-c9fd-4404-8208-617823c177be",
+    "ede0c46d-adf3-473e-91a4-95c7cc7e968b"
   ]
 }
