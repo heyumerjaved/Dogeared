@@ -135,6 +135,32 @@ if (instasliders.length > 0) {
   }
 }
 
+// arrow top adjustment 
+function updateArrowPositions() {
+  const sliders = document.querySelectorAll('.custom-product-slider');
+
+  sliders.forEach((slider) => {
+    const productImg = slider.querySelector('.product-image img');
+    const arrows = slider.querySelectorAll('.glide__arrow');
+
+    if (productImg) {
+      const imgHeight = productImg.clientHeight;
+      const arrowTop = imgHeight / 2;
+
+      arrows.forEach((arrow) => {
+        arrow.style.top = `${arrowTop}px`;
+      });
+    }
+  });
+}
+
+// Call the function initially
+updateArrowPositions();
+
+// Attach an event listener to update the positions on window resize
+window.addEventListener('resize', updateArrowPositions);
+
+
 
 
 // TOGGLE NEWSLETTER BUTTON
