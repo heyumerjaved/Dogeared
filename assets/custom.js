@@ -180,8 +180,8 @@ function toggleNewsletterButton() {
         var collectionLoopHtml = $(data).find('#CollectionLoop').clone();
 
 
-        // Remove elements with the class ".span2" and ".spanrow2"
-        collectionLoopHtml.find('.span2div, .spanrow2div').remove();
+        // Remove elements with the class ".banner-horizontal" and ".banner-vertical"
+        collectionLoopHtml.find('.banner-horizontal, .banner-vertical').remove();
         var new_url = collectionLoopHtml.data("next-url");
 
         if (new_url){
@@ -207,16 +207,16 @@ function toggleNewsletterButton() {
 })();
 
 
-// SPAN2 IMAGE HEIGHT ADJUSTMENT ON COLLECTION PAGE
-// Function to update the height of .span2div img
+// BANNER HORIZONTAL IMAGE HEIGHT ADJUSTMENT ON COLLECTION PAGE
+// Function to update the height of .banner-horizontal img
 function updateImageHeight() {
   const imageWrapper = document.querySelector('#CollectionLoop .image-wrapper--cover img');
-  const span2divImage = document.querySelector('#CollectionLoop .span2div img');
+  const bannerHorizontalImage = document.querySelector('#CollectionLoop .banner-horizontal img');
   
-  // Check if imageWrapper and span2divImage exist
-  if (imageWrapper && span2divImage) {
+  // Check if imageWrapper and bannerHorizontalImage exist
+  if (imageWrapper && bannerHorizontalImage) {
     const imageHeight = imageWrapper.clientHeight;
-    span2divImage.style.height = imageHeight + 'px';
+    bannerHorizontalImage.style.height = imageHeight + 'px';
   } 
 }
 

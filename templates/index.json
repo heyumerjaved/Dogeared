@@ -52,8 +52,9 @@
     "f852ea23-6d58-416e-9852-759c06eff78e": {
       "type": "custom-product-slider",
       "settings": {
+        "slider_title": "",
         "collection": "all-is-well",
-        "slider_button_text": "ALL NEW IN"
+        "slider_button_text": "ALL NEWLY IN"
       }
     },
     "831d82e0-5a9e-482a-a957-03010aa40aea": {
@@ -74,8 +75,9 @@
     "e0656f20-0f8a-4f1f-8d79-2570fdffdc98": {
       "type": "custom-product-slider",
       "settings": {
+        "slider_title": "",
         "collection": "best-sellers",
-        "slider_button_text": ""
+        "slider_button_text": "SEE ALL SELLERS"
       }
     },
     "a3a06106-8192-4e50-bf26-030ed8dee5ef": {

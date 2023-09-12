@@ -3,7 +3,11 @@
 {% assign breadcrumbs_modifier = breadcrumbs_modifier | default: '' %}
 
 {% capture divider_html %}
-  <span class="breadcrumbs__arrow">&nbsp;</span>
+  <span class="productcrumbs-arrow">
+    <svg width="3" height="4" viewBox="0 0 3 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1.788 3.516H0.3L1.56 0.659999H2.52L1.788 3.516Z" fill="#332F2F"/>
+      </svg>      
+  </span>
 {% endcapture %}
 
 <nav class="breadcrumbs {{ breadcrumbs_modifier }} productcrumbs">
@@ -804,6 +808,7 @@
 {% schema %}
   {
     "name": "Product pages",
+    "class": "product-page",
     "settings": [
       {
         "type": "header",

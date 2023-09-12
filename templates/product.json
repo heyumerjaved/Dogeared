@@ -286,10 +286,10 @@
         "product_sticky_enable": false,
         "image_layout": "grid-2",
         "image_size": "normal",
-        "show_cart_bar": true,
+        "show_cart_bar": false,
         "enable_zoom": true,
         "enable_video_looping": false,
-        "mobile_image_style": "slider",
+        "mobile_image_style": "thumbs",
         "padding_top": 40,
         "padding_bottom": 30
       }
@@ -469,7 +469,7 @@
             "image": "shopify:\/\/shop_images\/3d-rotate.svg",
             "title": "",
             "heading_size": 4,
-            "text": "<p>Free Shipping On Orders Over $75<\/p>",
+            "text": "<p>Free 30-Day Returns<\/p>",
             "text_size": 2
           }
         },
@@ -481,10 +481,10 @@
             "icon_size": 20,
             "icon_alignment": "icon--top",
             "icon_color": "#ffffff",
-            "image": "shopify:\/\/shop_images\/empty-wallet-time.svg",
+            "image": "shopify:\/\/shop_images\/shield-tick_370019c0-fa6c-4c11-825a-283642628de5.svg",
             "title": "",
             "heading_size": 4,
-            "text": "<p>Free Shipping On Orders Over $75<\/p>",
+            "text": "<p>2-Year Warranty<\/p>",
             "text_size": 2
           }
         },
@@ -496,10 +496,10 @@
             "icon_size": 20,
             "icon_alignment": "icon--top",
             "icon_color": "#ffffff",
-            "image": "shopify:\/\/shop_images\/shield-tick_370019c0-fa6c-4c11-825a-283642628de5.svg",
+            "image": "shopify:\/\/shop_images\/empty-wallet-time.svg",
             "title": "",
             "heading_size": 4,
-            "text": "<p>Free Shipping On Orders Over $75<\/p>",
+            "text": "<p>Shop Now, Pay Later with Klarna<\/p>",
             "text_size": 2
           }
         }
