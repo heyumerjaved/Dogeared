@@ -22413,10 +22413,9 @@ ul.tabs--center > li {
   position: absolute;
   top: 50%;
   right: 10px;
-  width: 16px;
-  height: 16px;
+  width: 8px;
+  height: 12px;
   fill: var(--text);
-  stroke: var(--text);
   transform: translateY(-50%);
   transition: visibility 0.3s, opacity 0.3s;
 }
@@ -26935,7 +26934,7 @@ a.unique-last-chance span.navtext {
   gap: 10px;
 }
 
-.sticky {
+.sticky-tabs {
   position: fixed;
   top: 0;
   z-index: 100;

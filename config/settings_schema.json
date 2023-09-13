@@ -931,7 +931,7 @@
         "type": "checkbox",
         "id": "currency_code_enable",
         "label": "Show currency codes",
-        "default": false
+        "default": true
       }
     ]
   },

@@ -67,11 +67,11 @@ if (tabs) {
       // Check if the scroll position is greater than or equal to the updated offset
       if (scrollY >= tabsOffset) {
           // Add the "sticky" class to make it sticky
-          tabs.classList.add("sticky");
+          tabs.classList.add("sticky-tabs");
           spacer.style.display = "block";
       } else {
           // Remove the "sticky" class to make it unsticky
-          tabs.classList.remove("sticky");
+          tabs.classList.remove("sticky-tabs");
           spacer.style.display = "none";
       }
   }
@@ -135,7 +135,7 @@ if (instasliders.length > 0) {
   }
 }
 
-// arrow top adjustment 
+// arrow top adjustment
 function updateArrowPositions() {
   const sliders = document.querySelectorAll('.custom-product-slider');
 

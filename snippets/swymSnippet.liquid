@@ -209,7 +209,11 @@ function swymCallbackFn(){
         if(SwymPageData){
          SwymPageData.et = 4;  // et 4 stands for wishlist event type  
          _swat.addToWishList(SwymPageData, function(e){
-            wishlistButton.innerHTML = "Saved"; 
+            wishlistButton.innerHTML = `
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="pink">
+                <path d="M11.9996 20.5541C-5.55846 10.9762 7.14008 -0.931578 11.9996 7.08806C16.8599 -0.931578 29.5593 10.9762 11.9996 20.5541Z" fill="pink"></path>
+              </svg>
+            `;
           });
         }
       }); 
